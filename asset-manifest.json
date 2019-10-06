@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/whisky/static/css/main.e9eb798e.chunk.css",
-    "main.js": "/whisky/static/js/main.2827bc88.chunk.js",
-    "main.js.map": "/whisky/static/js/main.2827bc88.chunk.js.map",
+    "main.js": "/whisky/static/js/main.bacbea98.chunk.js",
+    "main.js.map": "/whisky/static/js/main.bacbea98.chunk.js.map",
     "runtime-main.js": "/whisky/static/js/runtime-main.75e8beb1.js",
     "runtime-main.js.map": "/whisky/static/js/runtime-main.75e8beb1.js.map",
     "static/js/2.6dc43d8d.chunk.js": "/whisky/static/js/2.6dc43d8d.chunk.js",
     "static/js/2.6dc43d8d.chunk.js.map": "/whisky/static/js/2.6dc43d8d.chunk.js.map",
     "index.html": "/whisky/index.html",
-    "precache-manifest.474564daf39b72fd4ef807ea37b3155e.js": "/whisky/precache-manifest.474564daf39b72fd4ef807ea37b3155e.js",
+    "precache-manifest.13e506c7bf246f255f6da76f5758c8c1.js": "/whisky/precache-manifest.13e506c7bf246f255f6da76f5758c8c1.js",
     "service-worker.js": "/whisky/service-worker.js",
     "static/css/main.e9eb798e.chunk.css.map": "/whisky/static/css/main.e9eb798e.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.75e8beb1.js",
     "static/js/2.6dc43d8d.chunk.js",
     "static/css/main.e9eb798e.chunk.css",
-    "static/js/main.2827bc88.chunk.js"
+    "static/js/main.bacbea98.chunk.js"
   ]
 }
