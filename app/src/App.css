@@ -1,0 +1,16 @@
+table.table {
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+table.table th, table.table td {
+    padding: 4px;
+}
+
+table.table th {
+    text-align: left;
+}
+
+table.table td {
+    border-bottom: 1px solid;
+}
