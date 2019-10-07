@@ -2,6 +2,19 @@ import React from 'react';
 import './App.css';
 import alko from './data/alko';
 
+function getRelativePrice(product)
+{
+  return (40 / product.abv * product.price * (0.7 / product.size))
+}
+
+alko.sort((a, b) => {
+  if (a.country === b.country) {
+    return getRelativePrice(a) - getRelativePrice(b);
+  } else {
+    return 0;
+  }
+});
+
 function App() {
   return (
       <table className="table">
@@ -38,7 +51,7 @@ function App() {
                 {product.name}
               </td>
               <td>
-                {(40 / product.abv * product.price * (0.7 / product.size)).toFixed(2)} €
+                {getRelativePrice(product).toFixed(2)} €
               </td>
               <td>
                 {product.abv} %
