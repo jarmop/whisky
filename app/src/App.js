@@ -11,10 +11,11 @@ function App() {
             Name
           </th>
           <th>
-            Price per litre if 40 %
+            Price per 0.7 l of 40 %
           </th>
           <th>
             Abv
+
           </th>
           <th>
             Price
@@ -25,6 +26,9 @@ function App() {
           <th>
             Country
           </th>
+          <th>
+            Notes
+          </th>
         </tr>
         </thead>
         <tbody>
@@ -34,7 +38,7 @@ function App() {
                 {product.name}
               </td>
               <td>
-                {(40 / product.abv * product.price * (1 / product.size)).toFixed(2)} €
+                {(40 / product.abv * product.price * (0.7 / product.size)).toFixed(2)} €
               </td>
               <td>
                 {product.abv} %
@@ -47,6 +51,9 @@ function App() {
               </td>
               <td>
                 {product.country}
+              </td>
+              <td>
+                {product.notes}
               </td>
             </tr>
         )}
