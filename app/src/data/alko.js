@@ -6,7 +6,7 @@ export default [
     "size": 0.7,
     "price": 79.48,
     "country": "Australia",
-    "notes": "Keskitäyteläinen,  savuinen,  keskitäyteläinen,  kypsän sitruunainen,  trooppisen hedelmäinen,  kevyen keksinen,  turpeinen",
+    "notes": "Keskitäyteläinen,  savuinen,  trooppisen hedelmäinen,  tupakanlehtinen,  kevyen keksinen,  hennon lakritsinen,  turpeinen",
     "abv": 46.2,
     "relativePrice": 68.81385281385282
   },
@@ -17,7 +17,7 @@ export default [
     "size": 0.5,
     "price": 56.57,
     "country": "Belgia",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  trooppisen hedelmäinen,  kookoksinen,  vaniljainen,  tamminen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  trooppisen hedelmäinen,  kookoksinen,  vaniljainen,  tamminen",
     "abv": 46,
     "relativePrice": 68.86782608695651
   },
@@ -50,7 +50,7 @@ export default [
     "size": 0.7,
     "price": 72.89,
     "country": "Hollanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  kuivahedelmäinen,  kaakaoinen,  pähkinäinen,  tamminen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  kuivahedelmäinen,  kaakaoinen,  pähkinäinen,  tamminen",
     "abv": 43,
     "relativePrice": 67.80465116279069
   },
@@ -72,7 +72,7 @@ export default [
     "size": 0.7,
     "price": 29.89,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  keltainen,  keskitäyteläinen,  hedelmäinen,  hennon viljainen",
+    "notes": "Keskitäyteläinen,  keltainen,  hedelmäinen,  hennon viljainen",
     "abv": 40,
     "relativePrice": 29.89
   },
@@ -83,7 +83,7 @@ export default [
     "size": 0.7,
     "price": 49.99,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  keltainen,  keskitäyteläinen,  nektariininen,  makean viljainen,  kevyen hunajainen,  hennon yrttinen",
+    "notes": "Keskitäyteläinen,  keltainen,  nektariininen,  makean viljainen,  kevyen hunajainen,  hennon yrttinen",
     "abv": 40,
     "relativePrice": 49.99
   },
@@ -94,7 +94,7 @@ export default [
     "size": 0.7,
     "price": 79.49,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  kuparinruskea,  täyteläinen,  hedelmäkakkuinen,  nektariininen,  kevyen luumuinen,  pähkinäsuklainen,  runsas",
+    "notes": "Täyteläinen,  kuparinruskea,  hedelmäkakkuinen,  nektariininen,  kevyen luumuinen,  pähkinäsuklainen,  runsas",
     "abv": 40,
     "relativePrice": 79.49
   },
@@ -105,7 +105,7 @@ export default [
     "size": 0.7,
     "price": 39.99,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hedelmäinen,  kevyen vaniljainen,  viljainen,  yrttinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hedelmäinen,  kevyen vaniljainen,  viljainen,  yrttinen",
     "abv": 40,
     "relativePrice": 39.99
   },
@@ -116,7 +116,7 @@ export default [
     "size": 0.7,
     "price": 27.99,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  hedelmäinen,  hennon viljainen,  kevyen vaniljainen,  toffeinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hedelmäinen,  hennon viljainen,  kevyen vaniljainen,  toffeinen",
     "abv": 40,
     "relativePrice": 27.99
   },
@@ -127,7 +127,7 @@ export default [
     "size": 0.7,
     "price": 45.99,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  täyteläinen,  kypsän aprikoosinen,  palvilihainen,  turpeinen,  mineraalinen,  pitkä",
+    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  kypsän aprikoosinen,  palvilihainen,  turpeinen,  mineraalinen,  pitkä",
     "abv": 40,
     "relativePrice": 45.99
   },
@@ -160,7 +160,7 @@ export default [
     "size": 0.7,
     "price": 76.21,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  keltaruskea,  täyteläinen,  viljainen,  keksinen,  kevyen appelsiininen,  ruohoinen",
+    "notes": "Täyteläinen,  keltaruskea,  viljainen,  keksinen,  kevyen appelsiininen,  ruohoinen",
     "abv": 46,
     "relativePrice": 66.2695652173913
   },
@@ -171,7 +171,7 @@ export default [
     "size": 0.7,
     "price": 36.33,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  aprikoosinen,  kevyen appelsiininkuorinen,  viljainen,  toffeinen,  hennon mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  aprikoosinen,  kevyen appelsiininkuorinen,  viljainen,  toffeinen,  hennon mausteinen",
     "abv": 42,
     "relativePrice": 34.599999999999994
   },
@@ -182,7 +182,7 @@ export default [
     "size": 0.7,
     "price": 51.98,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  maltainen,  keksinen,  hedelmäinen,  toffeinen,  hennon kukkainen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  maltainen,  keksinen,  hedelmäinen,  toffeinen,  hennon kukkainen,  tasapainoinen",
     "abv": 40,
     "relativePrice": 51.98
   },
@@ -193,7 +193,7 @@ export default [
     "size": 0.35,
     "price": 18.28,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hennon hedelmäinen,  kevyen mausteinen,  viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon hedelmäinen,  kevyen mausteinen,  viljainen",
     "abv": 40,
     "relativePrice": 36.56
   },
@@ -215,7 +215,7 @@ export default [
     "size": 0.2,
     "price": 9.98,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hennon hedelmäinen,  kevyen mausteinen,  viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon hedelmäinen,  kevyen mausteinen,  viljainen",
     "abv": 40,
     "relativePrice": 34.93
   },
@@ -226,7 +226,7 @@ export default [
     "size": 0.7,
     "price": 32.98,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hennon hedelmäinen,  kevyen mausteinen,  viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon hedelmäinen,  kevyen mausteinen,  viljainen",
     "abv": 40,
     "relativePrice": 32.98
   },
@@ -259,7 +259,7 @@ export default [
     "size": 0.7,
     "price": 42.99,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  hedelmäinen,  paahteinen,  hennon yrttinen,  vaniljainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hedelmäinen,  paahteinen,  hennon yrttinen,  vaniljainen",
     "abv": 40,
     "relativePrice": 42.99
   },
@@ -303,7 +303,7 @@ export default [
     "size": 0.7,
     "price": 39.99,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  kuivahedelmäinen,  omenainen,  maitosuklainen,  toffeinen,  hennon kahvinen,  kevyen yrttinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  kuivahedelmäinen,  omenainen,  maitosuklainen,  toffeinen,  hennon kahvinen,  kevyen yrttinen,  mausteinen",
     "abv": 40,
     "relativePrice": 39.99
   },
@@ -358,7 +358,7 @@ export default [
     "size": 0.5,
     "price": 23.98,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hennon hedelmäinen,  kevyen mausteinen,  viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon hedelmäinen,  kevyen mausteinen,  viljainen",
     "abv": 40,
     "relativePrice": 33.571999999999996
   },
@@ -413,7 +413,7 @@ export default [
     "size": 0.7,
     "price": 53.98,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  kullanruskea,  keskitäyteläinen,  maltainen,  nektariininen,  omenainen,  toffeinen,  mantelinen,  tamminen,  hennon yrttinen",
+    "notes": "Keskitäyteläinen,  kullanruskea,  maltainen,  nektariininen,  omenainen,  toffeinen,  mantelinen,  tamminen,  hennon yrttinen",
     "abv": 40,
     "relativePrice": 53.98
   },
@@ -424,7 +424,7 @@ export default [
     "size": 0.7,
     "price": 69.97,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  täyteläinen,  kuivahedelmäinen,  suklainen,  hasselpähkinäinen,  kevyen yrttinen,  elegantti",
+    "notes": "Täyteläinen,  meripihkankeltainen,  kuivahedelmäinen,  suklainen,  hasselpähkinäinen,  kevyen yrttinen,  elegantti",
     "abv": 46,
     "relativePrice": 60.84347826086956
   },
@@ -446,7 +446,7 @@ export default [
     "size": 0.7,
     "price": 57.98,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  kuivatun aprikoosinen,  viikunainen,  pomeranssinen,  mantelinen,  kermatoffeinen,  mineraalinen,  lääkeyrttinen",
+    "notes": "Täyteläinen,  kullankeltainen,  kuivatun aprikoosinen,  viikunainen,  pomeranssinen,  mantelinen,  kermatoffeinen,  mineraalinen,  lääkeyrttinen",
     "abv": 46,
     "relativePrice": 50.417391304347824
   },
@@ -468,7 +468,7 @@ export default [
     "size": 0.7,
     "price": 349.95,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  maltainen,  persikkainen,  aprikoosinen,  keltaluumuinen,  sitruunankuorinen,  hennon viheromenainen,  tyylikäs",
+    "notes": "Täyteläinen,  kullankeltainen,  maltainen,  persikkainen,  aprikoosinen,  keltaluumuinen,  sitruunankuorinen,  hennon viheromenainen,  tyylikäs",
     "abv": 46,
     "relativePrice": 304.30434782608694
   },
@@ -479,7 +479,7 @@ export default [
     "size": 0.7,
     "price": 91.57,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  maltainen,  viheromenainen,  hedelmäkakkuinen,  hennon kuminainen",
+    "notes": "Täyteläinen,  kullankeltainen,  maltainen,  viheromenainen,  hedelmäkakkuinen,  hennon kuminainen",
     "abv": 46,
     "relativePrice": 79.62608695652173
   },
@@ -490,20 +490,9 @@ export default [
     "size": 0.7,
     "price": 51.49,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  hedelmäinen,  viikunainen,  kevyen banaaninen,  hennon kinuskinen,  mausteinen,  tamminen,  vivahteikas",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hedelmäinen,  viikunainen,  kevyen banaaninen,  hennon kinuskinen,  mausteinen,  tamminen,  vivahteikas",
     "abv": 46,
     "relativePrice": 44.77391304347826
-  },
-  {
-    "id": "955177",
-    "name": "Teeling Whiskey Single Malt",
-    "producer": "Teeling Whiskey",
-    "size": 0.7,
-    "price": 55.87,
-    "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  maltainen,  kuivahedelmäinen,  vaniljainen",
-    "abv": 46,
-    "relativePrice": 48.58260869565217
   },
   {
     "id": "190371",
@@ -512,7 +501,7 @@ export default [
     "size": 0.05,
     "price": 5.99,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  maltainen,  kuivatun aprikoosinen,  kevyen sitruksinen,  hennon yrttinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  maltainen,  kuivatun aprikoosinen,  kevyen sitruksinen,  hennon yrttinen",
     "abv": 46,
     "relativePrice": 72.92173913043477
   },
@@ -523,7 +512,7 @@ export default [
     "size": 0.7,
     "price": 39.99,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  aprikoosinen,  hennon appelsiininkuorinen,  kinuskinen,  vivahteikas",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  aprikoosinen,  hennon appelsiininkuorinen,  kinuskinen,  vivahteikas",
     "abv": 46,
     "relativePrice": 34.77391304347826
   },
@@ -534,7 +523,7 @@ export default [
     "size": 0.7,
     "price": 37.49,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  pähkinäinen,  viheromenainen,  tamminen,  hennon nokinen",
+    "notes": "Täyteläinen,  kullankeltainen,  pähkinäinen,  viheromenainen,  tamminen,  hennon nokinen",
     "abv": 44,
     "relativePrice": 34.081818181818186
   },
@@ -545,7 +534,7 @@ export default [
     "size": 0.5,
     "price": 20.69,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  aprikoosinen,  mausteinen,  hennon toffeinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  aprikoosinen,  mausteinen,  hennon toffeinen",
     "abv": 40,
     "relativePrice": 28.966
   },
@@ -611,7 +600,7 @@ export default [
     "size": 0.7,
     "price": 29.95,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  vaaleankeltainen,  keskitäyteläinen,  makean viljainen,  kevyen vaniljainen",
+    "notes": "Keskitäyteläinen,  vaaleankeltainen,  makean viljainen,  kevyen vaniljainen",
     "abv": 40,
     "relativePrice": 29.95
   },
@@ -622,7 +611,7 @@ export default [
     "size": 0.7,
     "price": 34.99,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  oranssinkeltainen,  keskitäyteläinen,  vaniljainen,  viljainen,  trooppisen hedelmäinen,  kookoksinen",
+    "notes": "Keskitäyteläinen,  oranssinkeltainen,  vaniljainen,  viljainen,  trooppisen hedelmäinen,  kookoksinen",
     "abv": 43,
     "relativePrice": 32.54883720930233
   },
@@ -633,7 +622,7 @@ export default [
     "size": 0.5,
     "price": 19.98,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  vaaleankeltainen,  keskitäyteläinen,  päärynäinen,  kevyen banaaninen,  makean viljainen,  kevyen vaniljainen",
+    "notes": "Keskitäyteläinen,  vaaleankeltainen,  päärynäinen,  kevyen banaaninen,  makean viljainen,  kevyen vaniljainen",
     "abv": 40,
     "relativePrice": 27.971999999999998
   },
@@ -644,7 +633,7 @@ export default [
     "size": 0.7,
     "price": 59.95,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  keltaruskea,  keskitäyteläinen,  nektariininen,  herukkainen,  kermatoffeinen,  kevyen maitosuklainen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  keltaruskea,  nektariininen,  herukkainen,  kermatoffeinen,  kevyen maitosuklainen,  tasapainoinen",
     "abv": 41.3,
     "relativePrice": 58.06295399515739
   },
@@ -655,7 +644,7 @@ export default [
     "size": 0.7,
     "price": 60.85,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  sitruksinen,  kevyen mangoinen,  hennon pähkinäinen,  suklainen",
+    "notes": "Täyteläinen,  kullankeltainen,  sitruksinen,  kevyen mangoinen,  hennon pähkinäinen,  suklainen",
     "abv": 43,
     "relativePrice": 56.604651162790695
   },
@@ -666,7 +655,7 @@ export default [
     "size": 0.7,
     "price": 39.9,
     "country": "Irlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  täyteläinen,  kypsän sitruksinen,  hennon kookoksinen,  vohvelinen,  tamminen,  tyylikäs",
+    "notes": "Täyteläinen,  meripihkankeltainen,  kypsän sitruksinen,  hennon kookoksinen,  vohvelinen,  tamminen,  tyylikäs",
     "abv": 40,
     "relativePrice": 39.9
   },
@@ -699,7 +688,7 @@ export default [
     "size": 0.5,
     "price": 65.9,
     "country": "Japani",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  kuivahedelmäinen,  setrinen,  tupakanlehtinen,  kaakaoinen,  kevyen umaminen,  yrttinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  kuivahedelmäinen,  setrinen,  tupakanlehtinen,  kaakaoinen,  kevyen umaminen,  yrttinen",
     "abv": 48,
     "relativePrice": 76.88333333333334
   },
@@ -765,7 +754,7 @@ export default [
     "size": 0.7,
     "price": 68.98,
     "country": "Japani",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  maltainen,  persikkainen,  keltaluumuinen,  kevyen yrttinen,  hennon banaaninen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  maltainen,  persikkainen,  keltaluumuinen,  kevyen yrttinen,  hennon banaaninen,  tasapainoinen",
     "abv": 43.4,
     "relativePrice": 63.57603686635945
   },
@@ -781,24 +770,13 @@ export default [
     "relativePrice": 59.35
   },
   {
-    "id": "939696",
-    "name": "White Oak Akashi",
-    "producer": "White Oak Distillery",
-    "size": 0.5,
-    "price": 41.85,
-    "country": "Japani",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hedelmäinen,  tamminen",
-    "abv": 40.5,
-    "relativePrice": 57.86666666666667
-  },
-  {
     "id": "001196",
     "name": "Black Velvet",
     "producer": "Black Velvet Distilling",
     "size": 0.7,
     "price": 23.98,
     "country": "Kanada",
-    "notes": "Kevyt,  kullankeltainen,  kevyt,  kevyen aprikoosinen,  toffeinen,  hennon mustapippurinen",
+    "notes": "Kevyt,  kullankeltainen,  kevyen aprikoosinen,  toffeinen,  hennon mustapippurinen",
     "abv": 40,
     "relativePrice": 23.98
   },
@@ -809,7 +787,7 @@ export default [
     "size": 0.5,
     "price": 16.89,
     "country": "Kanada",
-    "notes": "Kevyt,  kullankeltainen,  kevyt,  kevyen aprikoosinen,  toffeinen,  hennon mustapippurinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  kevyen hedelmäinen,  vaniljainen",
     "abv": 40,
     "relativePrice": 23.646
   },
@@ -820,7 +798,7 @@ export default [
     "size": 0.7,
     "price": 25.99,
     "country": "Kanada",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  trooppisen hedelmäinen,  kevyen pomeranssinen,  vaniljainen,  mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  trooppisen hedelmäinen,  kevyen pomeranssinen,  vaniljainen,  mausteinen",
     "abv": 40,
     "relativePrice": 25.99
   },
@@ -831,7 +809,7 @@ export default [
     "size": 0.7,
     "price": 29.99,
     "country": "Kanada",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  aprikoosinen,  vohvelinen,  toffeinen,  hennon pippurinen,  tamminen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  aprikoosinen,  vohvelinen,  toffeinen,  hennon pippurinen,  tamminen",
     "abv": 40,
     "relativePrice": 29.99
   },
@@ -842,7 +820,7 @@ export default [
     "size": 0.7,
     "price": 22.49,
     "country": "Kanada",
-    "notes": "Kevyt,  kullankeltainen,  kevyt,  viljainen,  hedelmäinen,  toffeinen",
+    "notes": "Kevyt,  kullankeltainen,  viljainen,  hedelmäinen,  toffeinen",
     "abv": 40,
     "relativePrice": 22.49
   },
@@ -853,7 +831,7 @@ export default [
     "size": 0.7,
     "price": 45.98,
     "country": "Kanada",
-    "notes": "Keskitäyteläinen,  kuparinruskea,  keskitäyteläinen,  kuivahedelmäinen,  rukiinen,  appelsiininkukkainen",
+    "notes": "Keskitäyteläinen,  kuparinruskea,  kuivahedelmäinen,  rukiinen,  appelsiininkukkainen",
     "abv": 43,
     "relativePrice": 42.77209302325581
   },
@@ -864,7 +842,7 @@ export default [
     "size": 0.7,
     "price": 39.98,
     "country": "Kanada",
-    "notes": "Keskitäyteläinen,  kuparinkeltainen,  keskitäyteläinen,  lämmin,  trooppisen hedelmäinen,  karamellinen,  kevyen kookoksinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kuparinkeltainen,  trooppisen hedelmäinen,  karamellinen,  kevyen kookoksinen,  mausteinen",
     "abv": 42,
     "relativePrice": 38.07619047619047
   },
@@ -875,7 +853,7 @@ export default [
     "size": 0.7,
     "price": 21.95,
     "country": "Kanada",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  viljainen,  kypsän aprikoosinen,  kevyen banaaninen,  hennon mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  viljainen,  kypsän aprikoosinen,  kevyen banaaninen,  hennon mausteinen",
     "abv": 40,
     "relativePrice": 21.95
   },
@@ -886,7 +864,7 @@ export default [
     "size": 0.7,
     "price": 27.49,
     "country": "Kanada",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hedelmäinen,  hennon kukkainen,  viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hedelmäinen,  hennon kukkainen,  viljainen",
     "abv": 40,
     "relativePrice": 27.49
   },
@@ -919,7 +897,7 @@ export default [
     "size": 0.7,
     "price": 79.98,
     "country": "Muu alkuperämaa",
-    "notes": "Täyteläinen,  kuparinruskea,  täyteläinen,  viljainen,  passionhedelmäinen,  viikunainen,  kevyen kaakaoinen",
+    "notes": "Täyteläinen,  kuparinruskea,  viljainen,  passionhedelmäinen,  viikunainen,  kevyen kaakaoinen",
     "abv": 40.5,
     "relativePrice": 78.99259259259259
   },
@@ -952,7 +930,7 @@ export default [
     "size": 0.7,
     "price": 59.95,
     "country": "Ranska",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  keskitäyteläinen,  hedelmäinen,  viljainen,  mausteinen,  tamminen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  hedelmäinen,  viljainen,  mausteinen,  tamminen,  tasapainoinen",
     "abv": 46,
     "relativePrice": 52.130434782608695
   },
@@ -1018,7 +996,7 @@ export default [
     "size": 0.5,
     "price": 71.17,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  viljainen,  päärynäinen,  kermatoffeinen,  hunajainen,  tamminen,  havuinen,  kevyen paahteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  viljainen,  päärynäinen,  kermatoffeinen,  hunajainen,  tamminen,  havuinen,  kevyen paahteinen",
     "abv": 46,
     "relativePrice": 86.64173913043477
   },
@@ -1095,7 +1073,7 @@ export default [
     "size": 0.7,
     "price": 64.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  täyteläinen,  sitrusmarmeladinen,  taatelinen,  kypsän greippinen,  vaniljainen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  sitrusmarmeladinen,  taatelinen,  kypsän greippinen,  vaniljainen",
     "abv": 48,
     "relativePrice": 54.15833333333333
   },
@@ -1106,7 +1084,7 @@ export default [
     "size": 0.7,
     "price": 64.9,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  miedon savuinen,  täyteläinen,  kypsän aprikoosinen,  tervapastillinen,  kevyen toffeinen,  tamminen,  hennon mineraalinen",
+    "notes": "Täyteläinen,  kullankeltainen,  miedon savuinen,  kypsän aprikoosinen,  tervapastillinen,  kevyen toffeinen,  tamminen,  hennon mineraalinen",
     "abv": 48.9,
     "relativePrice": 53.087934560327206
   },
@@ -1139,7 +1117,7 @@ export default [
     "size": 0.7,
     "price": 66.95,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  vaaleankeltainen,  voimakkaan savuinen,  täyteläinen,  kypsän hedelmäinen,  tervainen,  turpeinen,  rodukas",
+    "notes": "Täyteläinen,  vaaleankeltainen,  voimakkaan savuinen,  maltainen,  kypsän hedelmäinen,  kuivatun omenainen,  tervainen,  turpeinen,  hennon suolainen,  rodukas",
     "abv": 46,
     "relativePrice": 58.21739130434783
   },
@@ -1150,7 +1128,7 @@ export default [
     "size": 0.7,
     "price": 79.16,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  voimakkaan savuinen,  täyteläinen,  kermatoffeinen,  persikkainen",
+    "notes": "Täyteläinen,  kullankeltainen,  voimakkaan savuinen,  kermatoffeinen,  persikkainen",
     "abv": 46.6,
     "relativePrice": 67.94849785407725
   },
@@ -1161,7 +1139,7 @@ export default [
     "size": 0.7,
     "price": 102.96,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  voimakkaan savuinen,  täyteläinen,  makean maltainen,  hedelmäinen,  turpeinen,  pippurinen,  runsas,  pitkä",
+    "notes": "Täyteläinen,  meripihkankeltainen,  voimakkaan savuinen,  makean maltainen,  hedelmäinen,  turpeinen,  pippurinen,  runsas,  pitkä",
     "abv": 57.1,
     "relativePrice": 72.12609457092819
   },
@@ -1216,7 +1194,7 @@ export default [
     "size": 0.2,
     "price": 18.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  kuivahedelmäinen,  pähkinäinen,  hennon karamellinen,  kevyen inkiväärinen,  vivahteikas",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  kuivahedelmäinen,  pähkinäinen,  hennon karamellinen,  kevyen inkiväärinen,  vivahteikas",
     "abv": 40,
     "relativePrice": 66.42999999999999
   },
@@ -1271,7 +1249,7 @@ export default [
     "size": 0.7,
     "price": 27.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  keskitäyteläinen,  hedelmäinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  hedelmäinen,  mausteinen",
     "abv": 40,
     "relativePrice": 27.99
   },
@@ -1282,7 +1260,7 @@ export default [
     "size": 0.05,
     "price": 3.29,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  keskitäyteläinen,  hedelmäinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  hedelmäinen,  mausteinen",
     "abv": 40,
     "relativePrice": 46.059999999999995
   },
@@ -1293,7 +1271,7 @@ export default [
     "size": 0.5,
     "price": 19.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  keskitäyteläinen,  hedelmäinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  hedelmäinen,  mausteinen",
     "abv": 40,
     "relativePrice": 27.971999999999998
   },
@@ -1315,7 +1293,7 @@ export default [
     "size": 0.7,
     "price": 99.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  keskitäyteläinen,  kuivatun aprikoosinen,  hunajainen,  tervainen,  kevyen suolapähkinäinen,  hennon lakritsijuurinen,  aromikas",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  kuivatun aprikoosinen,  hunajainen,  tervainen,  kevyen suolapähkinäinen,  hennon lakritsijuurinen,  aromikas",
     "abv": 48.3,
     "relativePrice": 82.79917184265011
   },
@@ -1326,7 +1304,7 @@ export default [
     "size": 0.7,
     "price": 24.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullanruskea,  miedon savuinen,  keskitäyteläinen,  hedelmäinen,  tervainen,  mausteinen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  kullanruskea,  miedon savuinen,  hedelmäinen,  tervainen,  mausteinen,  tasapainoinen",
     "abv": 40,
     "relativePrice": 24.98
   },
@@ -1337,7 +1315,7 @@ export default [
     "size": 1,
     "price": 35.49,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullanruskea,  miedon savuinen,  keskitäyteläinen,  hedelmäinen,  tervainen,  mausteinen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  kullanruskea,  miedon savuinen,  hedelmäinen,  tervainen,  mausteinen,  tasapainoinen",
     "abv": 40,
     "relativePrice": 24.843
   },
@@ -1348,7 +1326,7 @@ export default [
     "size": 0.7,
     "price": 99.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  vaaleankeltainen,  voimakkaan savuinen,  täyteläinen,  turpeinen,  keltaluumuinen,  viljainen,  vohvelinen,  kermatoffeinen,  suolainen,  mineraalinen,  runsas",
+    "notes": "Täyteläinen,  vaaleankeltainen,  voimakkaan savuinen,  turpeinen,  keltaluumuinen,  viljainen,  vohvelinen,  kermatoffeinen,  suolainen,  mineraalinen,  runsas",
     "abv": 56,
     "relativePrice": 71.42142857142856
   },
@@ -1359,7 +1337,7 @@ export default [
     "size": 0.7,
     "price": 33.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  keskitäyteläinen,  viljainen,  hedelmäinen,  kermatoffeinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  viljainen,  hedelmäinen,  kermatoffeinen",
     "abv": 40,
     "relativePrice": 33.99
   },
@@ -1381,7 +1359,7 @@ export default [
     "size": 0.7,
     "price": 51.89,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  savuinen,  täyteläinen,  hedelmäinen,  herukanlehtinen,  kevyen tervainen,  turpeinen,  yrttinen,  rodukas",
+    "notes": "Täyteläinen,  kullanruskea,  savuinen,  hedelmäinen,  herukanlehtinen,  kevyen tervainen,  turpeinen,  yrttinen,  rodukas",
     "abv": 40,
     "relativePrice": 51.89
   },
@@ -1392,7 +1370,7 @@ export default [
     "size": 0.35,
     "price": 28.9,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  savuinen,  täyteläinen,  hedelmäinen,  herukanlehtinen,  kevyen tervainen,  turpeinen,  rodukas",
+    "notes": "Täyteläinen,  kullanruskea,  savuinen,  hedelmäinen,  herukanlehtinen,  kevyen tervainen,  turpeinen,  rodukas",
     "abv": 40,
     "relativePrice": 57.8
   },
@@ -1403,7 +1381,7 @@ export default [
     "size": 0.7,
     "price": 73.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  mahonginruskea,  savuinen,  täyteläinen,  turpeinen,  kypsän hedelmäinen,  pähkinäinen,  toffeinen,  tyylikäs",
+    "notes": "Täyteläinen,  mahonginruskea,  savuinen,  turpeinen,  kypsän hedelmäinen,  pähkinäinen,  toffeinen,  tyylikäs",
     "abv": 43,
     "relativePrice": 68.82790697674417
   },
@@ -1425,7 +1403,7 @@ export default [
     "size": 0.35,
     "price": 27.9,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  keskitäyteläinen,  hedelmäinen,  kypsän aprikoosinen,  yrttinen,  hennon mineraalinen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  hedelmäinen,  kypsän aprikoosinen,  yrttinen,  hennon mineraalinen,  tasapainoinen",
     "abv": 40,
     "relativePrice": 55.8
   },
@@ -1458,7 +1436,7 @@ export default [
     "size": 0.7,
     "price": 83.5,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  oljenkeltainen,  täyteläinen,  kuivahedelmäinen,  kevyen aprikoosinen,  viljainen,  mustapippurinen,  hennon mineraalinen",
+    "notes": "Täyteläinen,  oljenkeltainen,  kuivahedelmäinen,  kevyen aprikoosinen,  viljainen,  mustapippurinen,  hennon mineraalinen",
     "abv": 50,
     "relativePrice": 66.8
   },
@@ -1469,7 +1447,7 @@ export default [
     "size": 0.7,
     "price": 67.5,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  kuivatun aprikoosinen,  makean maltainen,  öljyinen,  merisuolainen,  hennon yrttinen,  tamminen,  vivahteikas",
+    "notes": "Täyteläinen,  kullankeltainen,  kuivatun aprikoosinen,  makean maltainen,  öljyinen,  merisuolainen,  hennon yrttinen,  tamminen,  vivahteikas",
     "abv": 50,
     "relativePrice": 54
   },
@@ -1480,7 +1458,7 @@ export default [
     "size": 0.7,
     "price": 99.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  maltainen,  viljainen,  vohvelinen,  hennon kermatoffeinen,  mineraalinen,  hennon maitosulkainen,  pitkä",
+    "notes": "Täyteläinen,  kullankeltainen,  maltainen,  viljainen,  vohvelinen,  hennon kermatoffeinen,  mineraalinen,  hennon maitosuklainen,  pitkä",
     "abv": 50,
     "relativePrice": 79.992
   },
@@ -1491,7 +1469,7 @@ export default [
     "size": 0.7,
     "price": 61.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  hennon savuinen,  täyteläinen,  maustepippurinen,  kuivatun aprikoosinen,  makean maltainen,  yrttinen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  hennon savuinen,  maustepippurinen,  kuivatun aprikoosinen,  makean maltainen,  yrttinen",
     "abv": 46.3,
     "relativePrice": 53.55507559395249
   },
@@ -1524,7 +1502,7 @@ export default [
     "size": 0.7,
     "price": 44.98,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkanruskea,  voimakkaan savuinen,  täyteläinen,  päärynäinen,  nektariininen,  suolaheinäinen,  pähkinäinen,  tasapainoinen",
+    "notes": "Täyteläinen,  meripihkanruskea,  voimakkaan savuinen,  päärynäinen,  nektariininen,  suolaheinäinen,  pähkinäinen,  tasapainoinen",
     "abv": 46.3,
     "relativePrice": 38.85961123110151
   },
@@ -1546,7 +1524,7 @@ export default [
     "size": 0.7,
     "price": 59.98,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  vaaleankeltainen,  voimakkaan savuinen,  täyteläinen,  aprikoosinen,  kevyen banaaninen,  turpeinen,  tervainen,  hunajainen,  hennon mineraalinen,  rodukas",
+    "notes": "Täyteläinen,  vaaleankeltainen,  voimakkaan savuinen,  aprikoosinen,  kevyen banaaninen,  turpeinen,  tervainen,  hunajainen,  hennon mineraalinen,  rodukas",
     "abv": 43,
     "relativePrice": 55.795348837209296
   },
@@ -1557,7 +1535,7 @@ export default [
     "size": 0.2,
     "price": 19.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  vaaleankeltainen,  voimakkaan savuinen,  täyteläinen,  hedelmäinen,  turpeinen,  tervainen,  hunajainen,  rodukas",
+    "notes": "Täyteläinen,  vaaleankeltainen,  voimakkaan savuinen,  hedelmäinen,  turpeinen,  tervainen,  hunajainen,  rodukas",
     "abv": 43,
     "relativePrice": 65.08372093023254
   },
@@ -1579,7 +1557,7 @@ export default [
     "size": 0.7,
     "price": 47.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hedelmäinen,  hunajainen,  hennon toffeinen,  tamminen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hedelmäinen,  hunajainen,  hennon toffeinen,  tamminen",
     "abv": 40,
     "relativePrice": 47.99
   },
@@ -1590,7 +1568,7 @@ export default [
     "size": 0.7,
     "price": 43.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen,  hennon tervainen,  kevyen hunajainen,  pähkinäinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen,  hennon tervainen,  kevyen hunajainen,  pähkinäinen",
     "abv": 40,
     "relativePrice": 43.98
   },
@@ -1601,7 +1579,7 @@ export default [
     "size": 0.35,
     "price": 26.28,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen,  hennon tervainen,  kevyen hunajainen,  pähkinäinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen,  hennon tervainen,  kevyen hunajainen,  pähkinäinen",
     "abv": 40,
     "relativePrice": 52.56
   },
@@ -1623,7 +1601,7 @@ export default [
     "size": 0.05,
     "price": 4.09,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen,  hennon tervainen,  kevyen hunajainen,  pähkinäinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen,  hennon tervainen,  kevyen hunajainen,  pähkinäinen",
     "abv": 40,
     "relativePrice": 57.25999999999999
   },
@@ -1645,7 +1623,7 @@ export default [
     "size": 0.2,
     "price": 19.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  hennon savuinen,  täyteläinen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  hennon savuinen",
     "abv": 40,
     "relativePrice": 69.96499999999999
   },
@@ -1672,17 +1650,6 @@ export default [
     "relativePrice": 55.98
   },
   {
-    "id": "900527",
-    "name": "Chivas Regal Mizunara",
-    "producer": "Chivas Brothers",
-    "size": 0.7,
-    "price": 86.98,
-    "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  mahonginruskea,  hedelmäinen,  hunajainen,  tamminen",
-    "abv": 40,
-    "relativePrice": 86.98
-  },
-  {
     "id": "945523",
     "name": "Chivas Regal XV",
     "producer": "Chivas Brothers Ltd",
@@ -1700,20 +1667,9 @@ export default [
     "size": 0.7,
     "price": 61.49,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullanruskea,  keskitäyteläinen,  hedelmäinen,  kermainen,  kevyen tervainen,  merisuolainen,  vivahteikas",
+    "notes": "Keskitäyteläinen,  kullanruskea,  hedelmäinen,  kermainen,  kevyen tervainen,  merisuolainen,  vivahteikas",
     "abv": 46,
     "relativePrice": 53.469565217391306
-  },
-  {
-    "id": "922482",
-    "name": "Compass Box Flaming Heart 6th Edition Blended  Malt",
-    "producer": "Compass Box",
-    "size": 0.7,
-    "price": 138.27,
-    "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  savuinen,  vaniljainen,  sikarilaatikkoinen",
-    "abv": 48.9,
-    "relativePrice": 113.10429447852762
   },
   {
     "id": "189026",
@@ -1722,9 +1678,20 @@ export default [
     "size": 0.5,
     "price": 38.71,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  oljenkeltainen,  keskitäyteläinen,  maltainen,  aprikoosinen,  kevyen maitosuklainen,  mausteinen,  vaniljainen,  vivahteikas,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  oljenkeltainen,  maltainen,  aprikoosinen,  kevyen maitosuklainen,  mausteinen,  vaniljainen,  vivahteikas,  tasapainoinen",
     "abv": 43,
     "relativePrice": 50.41302325581395
+  },
+  {
+    "id": "911377",
+    "name": "Compass Box Great King St Glasgow Blend\n",
+    "producer": "Compass Box Whisky",
+    "size": 0.7,
+    "price": 52.71,
+    "country": "Skotlanti",
+    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  kuivahedelmäinen,  suklainen",
+    "abv": 43,
+    "relativePrice": 49.032558139534885
   },
   {
     "id": "915117",
@@ -1766,7 +1733,7 @@ export default [
     "size": 0.7,
     "price": 65.11,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  kuivahedelmäinen,  kermatoffeinen,  setrinen,  kevyen tummasuklainen,  hennon inkiväärinen,  aromikas,  runsas",
+    "notes": "Täyteläinen,  kullankeltainen,  kuivahedelmäinen,  kermatoffeinen,  setrinen,  kevyen tummasuklainen,  hennon inkiväärinen,  aromikas,  runsas",
     "abv": 46,
     "relativePrice": 56.61739130434783
   },
@@ -1799,7 +1766,7 @@ export default [
     "size": 0.2,
     "price": 22.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullanruskea,  hennon savuinen,  keskitäyteläinen,  mausteinen,  aromikas",
+    "notes": "Keskitäyteläinen,  kullanruskea,  hennon savuinen,  mausteinen,  aromikas",
     "abv": 40,
     "relativePrice": 80.46499999999999
   },
@@ -1810,7 +1777,7 @@ export default [
     "size": 0.7,
     "price": 79.33,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  maltainen,  pomeranssinen,  viikunainen,  hunajainen,  kevyen kukkainen,  yrttinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  maltainen,  pomeranssinen,  viikunainen,  hunajainen,  kevyen kukkainen,  yrttinen",
     "abv": 40,
     "relativePrice": 79.33
   },
@@ -1854,7 +1821,7 @@ export default [
     "size": 0.2,
     "price": 19.68,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  maltainen,  päärynäinen,  kevyen hunajainen,  pähkinäinen,  tamminen,  runsas",
+    "notes": "Täyteläinen,  kullankeltainen,  maltainen,  päärynäinen,  kevyen hunajainen,  pähkinäinen,  tamminen,  runsas",
     "abv": 43,
     "relativePrice": 64.07441860465114
   },
@@ -1925,17 +1892,6 @@ export default [
     "relativePrice": 56.19130434782609
   },
   {
-    "id": "939457",
-    "name": "Edradour Barolo Cask Matured Single Malt",
-    "producer": "Edradour Distillery",
-    "size": 0.7,
-    "price": 69.47,
-    "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  hedelmäinen,  mausteinen",
-    "abv": 46,
-    "relativePrice": 60.40869565217391
-  },
-  {
     "id": "909367",
     "name": "Edradour Caledonia 12 Year Old Single Malt",
     "producer": "Edradour Distillery",
@@ -1947,24 +1903,13 @@ export default [
     "relativePrice": 60.1304347826087
   },
   {
-    "id": "957377",
-    "name": "Edradour Super Tuscan Cask Matured Single Malt",
-    "producer": "Edradour Distillery",
-    "size": 0.7,
-    "price": 69.47,
-    "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkanruskea,  hedelmäinen,  tamminen,  mausteinen,  aromikas",
-    "abv": 46,
-    "relativePrice": 60.40869565217391
-  },
-  {
     "id": "131747",
     "name": "Glen Elgin 12 Year Old Single Malt",
     "producer": "Glen Elgin Distillery",
     "size": 0.7,
     "price": 51.9,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  maltainen,  kuivahedelmäinen,  kevyen hasselpähkinäinen,  maitosuklainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  maltainen,  kuivahedelmäinen,  kevyen hasselpähkinäinen,  maitosuklainen",
     "abv": 43,
     "relativePrice": 48.27906976744186
   },
@@ -1975,7 +1920,7 @@ export default [
     "size": 0.7,
     "price": 56.9,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  hennon savuinen,  täyteläinen,  maltainen,  aprikoosinen,  päärynäinen,  maitosuklainen,  hunajainen,  kevyen kanervainen,  tamminen",
+    "notes": "Täyteläinen,  kullankeltainen,  hennon savuinen,  maltainen,  aprikoosinen,  päärynäinen,  maitosuklainen,  hunajainen,  kevyen kanervainen,  tamminen",
     "abv": 48,
     "relativePrice": 47.416666666666664
   },
@@ -2041,7 +1986,7 @@ export default [
     "size": 0.7,
     "price": 37.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  lohenpunainen,  keskitäyteläinen,  marjainen,  toffeinen,  suklainen",
+    "notes": "Keskitäyteläinen,  lohenpunainen,  marjainen,  toffeinen,  suklainen",
     "abv": 40,
     "relativePrice": 37.99
   },
@@ -2063,7 +2008,7 @@ export default [
     "size": 0.7,
     "price": 37.5,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  viljainen,  banaaninen,  toffeinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  viljainen,  banaaninen,  toffeinen,  mausteinen",
     "abv": 40,
     "relativePrice": 37.5
   },
@@ -2074,7 +2019,7 @@ export default [
     "size": 0.2,
     "price": 7.48,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  makean viljainen,  hennon hunajainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  makean viljainen,  hennon hunajainen",
     "abv": 40,
     "relativePrice": 26.18
   },
@@ -2085,7 +2030,7 @@ export default [
     "size": 1,
     "price": 32.49,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  makean viljainen,  hennon hunajainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  makean viljainen,  hennon hunajainen",
     "abv": 40,
     "relativePrice": 22.743
   },
@@ -2096,7 +2041,7 @@ export default [
     "size": 0.7,
     "price": 22.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  makean viljainen,  hennon hunajainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  makean viljainen,  hennon hunajainen",
     "abv": 40,
     "relativePrice": 22.99
   },
@@ -2107,7 +2052,7 @@ export default [
     "size": 0.7,
     "price": 31.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  maltainen,  kuivahedelmäinen,  kermatoffeinen,  kevyen pähkinäinen,  hennon mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  maltainen,  kuivahedelmäinen,  kermatoffeinen,  kevyen pähkinäinen,  hennon mausteinen",
     "abv": 40,
     "relativePrice": 31.98
   },
@@ -2118,7 +2063,7 @@ export default [
     "size": 0.7,
     "price": 39.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  mangoinen,  sitruunahilloinen,  kevyen hunajakennoinen,  vohvelinen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  mangoinen,  sitruunahilloinen,  kevyen hunajakennoinen,  vohvelinen,  tasapainoinen",
     "abv": 40,
     "relativePrice": 39.99
   },
@@ -2239,7 +2184,7 @@ export default [
     "size": 0.7,
     "price": 49.95,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  maltainen,  aprikoosinen,  kevyen mausteinen,  hennon mineraalinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  maltainen,  aprikoosinen,  kevyen mausteinen,  hennon mineraalinen",
     "abv": 40,
     "relativePrice": 49.95
   },
@@ -2261,7 +2206,7 @@ export default [
     "size": 0.2,
     "price": 19.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  täyteläinen,  hedelmäinen,  kevyen paahteinen,  hunajainen,  tyylikäs",
+    "notes": "Täyteläinen,  meripihkankeltainen,  hedelmäinen,  kevyen paahteinen,  hunajainen,  tyylikäs",
     "abv": 40,
     "relativePrice": 69.96499999999999
   },
@@ -2294,7 +2239,7 @@ export default [
     "size": 0.7,
     "price": 69.96,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  keltainen,  täyteläinen,  kuivatun aprikoosinen,  greippinen,  pähkinäinen,  mausteinen,  tamminen",
+    "notes": "Täyteläinen,  keltainen,  kuivatun aprikoosinen,  greippinen,  pähkinäinen,  mausteinen,  tamminen",
     "abv": 43,
     "relativePrice": 65.07906976744185
   },
@@ -2404,7 +2349,7 @@ export default [
     "size": 0.7,
     "price": 51.9,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  viljainen,  hedelmäinen,  kevyen turpeinen,  hennon kukkainen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  viljainen,  hedelmäinen,  kevyen turpeinen,  hennon kukkainen,  tasapainoinen",
     "abv": 43,
     "relativePrice": 48.27906976744186
   },
@@ -2415,7 +2360,7 @@ export default [
     "size": 0.7,
     "price": 78.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kuparinkeltainen,  keskitäyteläinen,  maltainen,  kuivahedelmäinen,  hunajainen,  kevyen pähkinäinen,  paahteinen",
+    "notes": "Keskitäyteläinen,  kuparinkeltainen,  maltainen,  kuivahedelmäinen,  hunajainen,  kevyen pähkinäinen,  paahteinen",
     "abv": 43,
     "relativePrice": 73.47906976744186
   },
@@ -2426,20 +2371,9 @@ export default [
     "size": 0.7,
     "price": 93.22,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  täyteläinen,  maltainen,  kypsän sitruksinen,  kermatoffeinen,  mausteinen,  kevyen ruisleipäinen,  tasapainoinen",
+    "notes": "Täyteläinen,  kullanruskea,  maltainen,  kypsän sitruksinen,  kermatoffeinen,  mausteinen,  kevyen ruisleipäinen,  tasapainoinen",
     "abv": 51.2,
     "relativePrice": 72.828125
-  },
-  {
-    "id": "931027",
-    "name": "Glenmorangie Bacalta Single Malt",
-    "producer": "Glenmorangie Distillery",
-    "size": 0.7,
-    "price": 76,
-    "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  kermatoffeinen,  hunajainen,  paahteinen",
-    "abv": 46,
-    "relativePrice": 66.08695652173913
   },
   {
     "id": "101817",
@@ -2448,7 +2382,7 @@ export default [
     "size": 0.7,
     "price": 106.32,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  appelsiininkukkainen,  kypsän aprikoosinen,  nokkosinen,  kevyen herukkainen,  tamminen,  vivahteikas,  elegantti",
+    "notes": "Täyteläinen,  kullankeltainen,  appelsiininkukkainen,  kypsän aprikoosinen,  nokkosinen,  kevyen herukkainen,  tamminen,  vivahteikas,  elegantti",
     "abv": 43,
     "relativePrice": 98.90232558139535
   },
@@ -2459,7 +2393,7 @@ export default [
     "size": 0.7,
     "price": 713.32,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kuparinkeltainen,  täyteläinen,  maltainen,  kuivahedelmäinen,  persikkainen,  appelsiininen,  hunajainen,  hennon mausteinen,  tasapainoinen,  tyylikäs,  pitkä",
+    "notes": "Täyteläinen,  kuparinkeltainen,  maltainen,  kuivahedelmäinen,  persikkainen,  appelsiininen,  hunajainen,  hennon mausteinen,  tasapainoinen,  tyylikäs,  pitkä",
     "abv": 43,
     "relativePrice": 663.553488372093
   },
@@ -2503,7 +2437,7 @@ export default [
     "size": 0.7,
     "price": 49.95,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  oljenkeltainen,  keskitäyteläinen,  sitruksinen,  banaaninen,  pomeranssinen,  kevyen pähkinäinen,  hennon kukkainen,  vaniljainen,  tyylikäs",
+    "notes": "Keskitäyteläinen,  oljenkeltainen,  sitruksinen,  banaaninen,  pomeranssinen,  kevyen pähkinäinen,  hennon kukkainen,  vaniljainen,  tyylikäs",
     "abv": 40,
     "relativePrice": 49.95
   },
@@ -2514,7 +2448,7 @@ export default [
     "size": 0.7,
     "price": 77.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  maltainen,  hedelmäinen,  päärynäinen,  pähkinäinen,  vivahteikas",
+    "notes": "Täyteläinen,  kullankeltainen,  maltainen,  hedelmäinen,  päärynäinen,  pähkinäinen,  vivahteikas",
     "abv": 46,
     "relativePrice": 67.81739130434782
   },
@@ -2536,7 +2470,7 @@ export default [
     "size": 1,
     "price": 29.89,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kuparinkeltainen,  keskitäyteläinen,  maltainen,  kuivahedelmäinen,  vaniljainen,  kevyen kermatoffeinen,  yrttinen",
+    "notes": "Keskitäyteläinen,  kuparinkeltainen,  maltainen,  kuivahedelmäinen,  vaniljainen,  kevyen kermatoffeinen,  yrttinen",
     "abv": 40,
     "relativePrice": 20.923
   },
@@ -2547,7 +2481,7 @@ export default [
     "size": 0.35,
     "price": 15.49,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen,  mausteinen,  kevyen viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen,  mausteinen,  kevyen viljainen",
     "abv": 40,
     "relativePrice": 30.98
   },
@@ -2558,7 +2492,7 @@ export default [
     "size": 4.5,
     "price": 189.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen,  mausteinen,  kevyen viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen,  mausteinen,  kevyen viljainen",
     "abv": 40,
     "relativePrice": 29.554000000000002
   },
@@ -2569,7 +2503,7 @@ export default [
     "size": 0.7,
     "price": 27.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen,  mausteinen,  kevyen viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen,  mausteinen,  kevyen viljainen",
     "abv": 40,
     "relativePrice": 27.98
   },
@@ -2580,7 +2514,7 @@ export default [
     "size": 0.7,
     "price": 20.98,
     "country": "Skotlanti",
-    "notes": "Kevyt,  kullankeltainen,  hennon savuinen,  kevyt,  hedelmäinen,  viljainen",
+    "notes": "Kevyt,  kullankeltainen,  hennon savuinen,  hedelmäinen,  viljainen",
     "abv": 40,
     "relativePrice": 20.98
   },
@@ -2591,7 +2525,7 @@ export default [
     "size": 0.35,
     "price": 11.49,
     "country": "Skotlanti",
-    "notes": "Kevyt,  kullankeltainen,  hennon savuinen,  kevyt,  hedelmäinen,  viljainen",
+    "notes": "Kevyt,  kullankeltainen,  hennon savuinen,  hedelmäinen,  viljainen",
     "abv": 40,
     "relativePrice": 22.98
   },
@@ -2613,7 +2547,7 @@ export default [
     "size": 0.7,
     "price": 23.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  banaaninen,  hennon hunajainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  banaaninen,  hennon hunajainen",
     "abv": 40,
     "relativePrice": 23.98
   },
@@ -2624,7 +2558,7 @@ export default [
     "size": 0.7,
     "price": 29.98,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  hennon savuinen,  täyteläinen,  makean maltainen,  aprikoosinen,  kevyen viljainen,  hennon toffeinen,  mausteinen,  runsas",
+    "notes": "Täyteläinen,  kullanruskea,  hennon savuinen,  makean maltainen,  aprikoosinen,  kevyen viljainen,  hennon toffeinen,  mausteinen,  runsas",
     "abv": 46,
     "relativePrice": 26.069565217391304
   },
@@ -2657,7 +2591,7 @@ export default [
     "size": 0.7,
     "price": 21.78,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen,  kevyen viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen,  kevyen viljainen",
     "abv": 40,
     "relativePrice": 21.78
   },
@@ -2668,7 +2602,7 @@ export default [
     "size": 0.35,
     "price": 11.69,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen,  kevyen viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen,  kevyen viljainen",
     "abv": 40,
     "relativePrice": 23.38
   },
@@ -2679,7 +2613,7 @@ export default [
     "size": 0.7,
     "price": 50.28,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  täyteläinen,  maltainen,  keltaluumuinen,  kuivatun persikkainen,  pippurinen,  lakritsijuurinen,  kanervainen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  maltainen,  keltaluumuinen,  kuivatun persikkainen,  pippurinen,  lakritsijuurinen,  kanervainen",
     "abv": 46,
     "relativePrice": 43.721739130434784
   },
@@ -2690,7 +2624,7 @@ export default [
     "size": 0.05,
     "price": 6.19,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  keskitäyteläinen,  maltainen,  aprikoosinen,  kevyen turpeinen,  mineraalinen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  maltainen,  aprikoosinen,  kevyen turpeinen,  mineraalinen,  tasapainoinen",
     "abv": 40,
     "relativePrice": 86.66
   },
@@ -2701,7 +2635,7 @@ export default [
     "size": 0.7,
     "price": 49.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  keskitäyteläinen,  maltainen,  aprikoosinen,  kevyen turpeinen,  mineraalinen,  kanervainen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  savuinen,  maltainen,  aprikoosinen,  kevyen turpeinen,  mineraalinen,  kanervainen,  tasapainoinen",
     "abv": 40,
     "relativePrice": 49.99
   },
@@ -2712,7 +2646,7 @@ export default [
     "size": 0.7,
     "price": 111.49,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  täyteläinen,  hedelmäinen,  toffeinen,  hennon mantelinen,  tervainen,  mausteinen,  vivahteikas",
+    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  hedelmäinen,  toffeinen,  hennon mantelinen,  tervainen,  mausteinen,  vivahteikas",
     "abv": 43,
     "relativePrice": 103.71162790697674
   },
@@ -2822,7 +2756,7 @@ export default [
     "size": 0.7,
     "price": 94.89,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  miedon savuinen,  täyteläinen,  turpeinen,  hedelmäinen,  kanervainen,  vaniljainen,  hennon marjainen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  miedon savuinen,  turpeinen,  hedelmäinen,  kanervainen,  vaniljainen,  hennon marjainen",
     "abv": 46.7,
     "relativePrice": 81.2762312633833
   },
@@ -2833,7 +2767,7 @@ export default [
     "size": 0.7,
     "price": 78.9,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kuparinkeltainen,  miedon savuinen,  täyteläinen,  maltainen,  omenainen,  tamminen,  kermainen,  kanervainen,  pitkä",
+    "notes": "Täyteläinen,  kuparinkeltainen,  miedon savuinen,  maltainen,  omenainen,  tamminen,  kermainen,  kanervainen,  pitkä",
     "abv": 47,
     "relativePrice": 67.14893617021278
   },
@@ -2855,7 +2789,7 @@ export default [
     "size": 0.7,
     "price": 72.89,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  täyteläinen,  sitruksinen,  tervainen,  mentolinen,  turpeinen,  kevyen kermatoffeinen",
+    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  sitruksinen,  tervainen,  mentolinen,  turpeinen,  kevyen kermatoffeinen",
     "abv": 45.9,
     "relativePrice": 63.520697167756
   },
@@ -2877,7 +2811,7 @@ export default [
     "size": 0.7,
     "price": 20.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen,  kevyen toffeinen,  viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen,  kevyen toffeinen,  viljainen",
     "abv": 40,
     "relativePrice": 20.98
   },
@@ -2888,7 +2822,7 @@ export default [
     "size": 0.7,
     "price": 22.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kuparinruskea,  keskitäyteläinen,  kuivatun aprikoosinen,  kermatoffeinen,  hennon yrttinen",
+    "notes": "Keskitäyteläinen,  kuparinruskea,  kuivatun aprikoosinen,  kermatoffeinen,  hennon yrttinen",
     "abv": 40,
     "relativePrice": 22.99
   },
@@ -2910,7 +2844,7 @@ export default [
     "size": 0.7,
     "price": 20.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  viljainen,  kuivahedelmäinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  viljainen,  kuivahedelmäinen",
     "abv": 40,
     "relativePrice": 20.98
   },
@@ -2921,7 +2855,7 @@ export default [
     "size": 0.7,
     "price": 49.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kuparinruskea,  täyteläinen,  kuivahedelmäinen,  sitruksinen,  pähkinäinen,  hennon turpeinen",
+    "notes": "Täyteläinen,  kuparinruskea,  kuivahedelmäinen,  sitruksinen,  pähkinäinen,  hennon turpeinen",
     "abv": 46,
     "relativePrice": 43.469565217391306
   },
@@ -2932,7 +2866,7 @@ export default [
     "size": 0.7,
     "price": 39.95,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  savuinen,  täyteläinen,  kypsän aprikoosinen,  kermatoffeinen,  hennon pähkinäinen,  mausteinen,  tamminen",
+    "notes": "Täyteläinen,  kullanruskea,  savuinen,  kypsän aprikoosinen,  kermatoffeinen,  hennon pähkinäinen,  mausteinen,  tamminen",
     "abv": 40,
     "relativePrice": 39.95
   },
@@ -2965,7 +2899,7 @@ export default [
     "size": 0.7,
     "price": 27.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  savuinen,  keskitäyteläinen,  aprikoosinen,  kevyen banaaninen,  viljainen,  hennon turpeinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  savuinen,  aprikoosinen,  kevyen banaaninen,  viljainen,  hennon turpeinen",
     "abv": 40,
     "relativePrice": 27.98
   },
@@ -2976,7 +2910,7 @@ export default [
     "size": 0.7,
     "price": 43.4,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  keskitäyteläinen,  hedelmäinen,  maltainen,  hennon tervainen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  hedelmäinen,  maltainen,  hennon tervainen,  tasapainoinen",
     "abv": 40,
     "relativePrice": 43.4
   },
@@ -2987,7 +2921,7 @@ export default [
     "size": 0.7,
     "price": 29.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hedelmäinen,  hennon sitruksinen,  kevyen kermatoffeinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hedelmäinen,  hennon sitruksinen,  kevyen kermatoffeinen,  mausteinen",
     "abv": 40,
     "relativePrice": 29.99
   },
@@ -3009,7 +2943,7 @@ export default [
     "size": 0.35,
     "price": 15.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  keskitäyteläinen,  hedelmäinen,  tervainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  hedelmäinen,  tervainen",
     "abv": 40,
     "relativePrice": 31.98
   },
@@ -3020,7 +2954,7 @@ export default [
     "size": 0.7,
     "price": 29.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  keskitäyteläinen,  hedelmäinen,  tervainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  hedelmäinen,  tervainen",
     "abv": 40,
     "relativePrice": 29.99
   },
@@ -3031,7 +2965,7 @@ export default [
     "size": 0.05,
     "price": 3.25,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  keskitäyteläinen,  hedelmäinen,  tervainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  hedelmäinen,  tervainen",
     "abv": 40,
     "relativePrice": 45.49999999999999
   },
@@ -3042,7 +2976,7 @@ export default [
     "size": 0.7,
     "price": 49.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  kuivahedelmäinen,  kermatoffeinen,  mineraalinen,  kevyen suolaheinäinen,  pähkinäinen,  tamminen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  kuivahedelmäinen,  kermatoffeinen,  mineraalinen,  kevyen suolaheinäinen,  pähkinäinen,  tamminen",
     "abv": 40,
     "relativePrice": 49.99
   },
@@ -3097,7 +3031,7 @@ export default [
     "size": 0.7,
     "price": 109.79,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  täyteläinen,  omenatorttuinen,  aprikoosinen,  nokinen,  kevyen vaniljainen,  yrttinen",
+    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  omenatorttuinen,  aprikoosinen,  nokinen,  kevyen vaniljainen,  yrttinen",
     "abv": 57.8,
     "relativePrice": 75.97923875432527
   },
@@ -3141,7 +3075,7 @@ export default [
     "size": 0.7,
     "price": 69.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  täyteläinen,  turpeinen,  luumuinen,  ruusunmarjainen,  toffeinen,  kevyen suolaheinäinen,  hennon vaniljainen,  vivahteikas",
+    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  turpeinen,  luumuinen,  ruusunmarjainen,  toffeinen,  kevyen suolaheinäinen,  hennon vaniljainen,  vivahteikas",
     "abv": 46,
     "relativePrice": 60.860869565217385
   },
@@ -3163,7 +3097,7 @@ export default [
     "size": 0.7,
     "price": 79.95,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  keltainen,  voimakkaan savuinen,  täyteläinen,  maltainen,  turpeinen,  tervainen,  tamminen,  kevyen vaniljainen,  tyylikäs",
+    "notes": "Täyteläinen,  keltainen,  voimakkaan savuinen,  maltainen,  turpeinen,  tervainen,  tamminen,  kevyen vaniljainen,  tyylikäs",
     "abv": 46,
     "relativePrice": 69.52173913043478
   },
@@ -3196,7 +3130,7 @@ export default [
     "size": 1,
     "price": 32.9,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  makean hedelmäinen,  kevyen viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  makean hedelmäinen,  kevyen viljainen",
     "abv": 40,
     "relativePrice": 23.029999999999998
   },
@@ -3207,7 +3141,7 @@ export default [
     "size": 0.5,
     "price": 17.69,
     "country": "Skotlanti",
-    "notes": "Kevyt,  kullankeltainen,  miedon savuinen,  kevyt,  kevyen hedelmäinen,  makean viljainen,  turpeinen,  mausteinen",
+    "notes": "Kevyt,  kullankeltainen,  miedon savuinen,  kevyen hedelmäinen,  makean viljainen,  turpeinen,  mausteinen",
     "abv": 40,
     "relativePrice": 24.766000000000002
   },
@@ -3218,7 +3152,7 @@ export default [
     "size": 0.35,
     "price": 12.69,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  keskitäyteläinen,  makean viljainen,  turpeinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  makean viljainen,  turpeinen,  mausteinen",
     "abv": 40,
     "relativePrice": 25.38
   },
@@ -3229,7 +3163,7 @@ export default [
     "size": 0.7,
     "price": 22.49,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  keskitäyteläinen,  makean viljainen,  turpeinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  makean viljainen,  turpeinen,  mausteinen",
     "abv": 40,
     "relativePrice": 22.49
   },
@@ -3240,7 +3174,7 @@ export default [
     "size": 0.5,
     "price": 16.5,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  oljenkeltainen,  hennon savuinen,  keskitäyteläinen,  makean viljainen,  kevyen mausteinen",
+    "notes": "Keskitäyteläinen,  oljenkeltainen,  hennon savuinen,  makean viljainen,  kevyen mausteinen",
     "abv": 40,
     "relativePrice": 23.099999999999998
   },
@@ -3251,7 +3185,7 @@ export default [
     "size": 0.2,
     "price": 7.39,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  oljenkeltainen,  hennon savuinen,  keskitäyteläinen,  makean viljainen,  kevyen mausteinen",
+    "notes": "Keskitäyteläinen,  oljenkeltainen,  hennon savuinen,  makean viljainen,  kevyen mausteinen",
     "abv": 40,
     "relativePrice": 25.864999999999995
   },
@@ -3262,7 +3196,7 @@ export default [
     "size": 1.5,
     "price": 46.7,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  oljenkeltainen,  hennon savuinen,  keskitäyteläinen,  makean viljainen,  kevyen mausteinen",
+    "notes": "Keskitäyteläinen,  oljenkeltainen,  hennon savuinen,  makean viljainen,  kevyen mausteinen",
     "abv": 40,
     "relativePrice": 21.793333333333333
   },
@@ -3295,7 +3229,7 @@ export default [
     "size": 0.7,
     "price": 85.39,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkanruskea,  voimakkaan savuinen,  täyteläinen,  turpeinen,  kuivahedelmäinen,  mineraalinen,  kevyen talinen,  roteva",
+    "notes": "Täyteläinen,  meripihkanruskea,  voimakkaan savuinen,  turpeinen,  kuivahedelmäinen,  mineraalinen,  kevyen talinen,  roteva",
     "abv": 43,
     "relativePrice": 79.43255813953488
   },
@@ -3317,7 +3251,7 @@ export default [
     "size": 0.7,
     "price": 54.5,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  voimakkaan savuinen,  täyteläinen,  hedelmäinen,  yrttinen,  turpeinen,  tervainen,  talinen,  rodukas",
+    "notes": "Täyteläinen,  kullanruskea,  voimakkaan savuinen,  hedelmäinen,  yrttinen,  turpeinen,  tervainen,  talinen,  rodukas",
     "abv": 40,
     "relativePrice": 54.5
   },
@@ -3328,7 +3262,7 @@ export default [
     "size": 0.7,
     "price": 99.84,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  täyteläinen,  mineraalinen,  merisuolainen,  kevyen turpeinen,  hennon viheromenainen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  mineraalinen,  merisuolainen,  kevyen turpeinen,  hennon viheromenainen",
     "abv": 48,
     "relativePrice": 83.2
   },
@@ -3339,7 +3273,7 @@ export default [
     "size": 0.7,
     "price": 59.98,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  voimakkaan savuinen,  täyteläinen,  roteva,  hedelmäinen,  turpeinen,  tervainen",
+    "notes": "Täyteläinen,  kullankeltainen,  voimakkaan savuinen,  roteva,  hedelmäinen,  turpeinen,  tervainen",
     "abv": 48,
     "relativePrice": 49.983333333333334
   },
@@ -3350,7 +3284,7 @@ export default [
     "size": 0.7,
     "price": 68.49,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  voimakkaan savuinen,  täyteläinen,  hedelmäinen,  tamminen",
+    "notes": "Täyteläinen,  kullanruskea,  voimakkaan savuinen,  hedelmäinen,  tamminen",
     "abv": 48,
     "relativePrice": 57.074999999999996
   },
@@ -3361,7 +3295,7 @@ export default [
     "size": 0.7,
     "price": 22.4,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  viljainen,  kevyen mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  viljainen,  kevyen mausteinen",
     "abv": 40,
     "relativePrice": 22.4
   },
@@ -3372,7 +3306,7 @@ export default [
     "size": 0.05,
     "price": 4.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  keltainen,  savuinen,  täyteläinen,  kuivatun aprikoosinen,  turpeinen,  mausteinen,  yrttinen",
+    "notes": "Täyteläinen,  keltainen,  savuinen,  kuivatun aprikoosinen,  turpeinen,  mausteinen,  yrttinen",
     "abv": 46.3,
     "relativePrice": 60.35421166306696
   },
@@ -3383,7 +3317,7 @@ export default [
     "size": 0.7,
     "price": 54.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  sitruunankeltainen,  voimakkaan savuinen,  täyteläinen,  kuivatun aprikoosinen,  turpeinen,  mausteinen,  yrttinen",
+    "notes": "Täyteläinen,  sitruunankeltainen,  voimakkaan savuinen,  kuivatun aprikoosinen,  turpeinen,  mausteinen,  yrttinen",
     "abv": 46.3,
     "relativePrice": 47.507559395248386
   },
@@ -3416,7 +3350,7 @@ export default [
     "size": 0.7,
     "price": 20.96,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  keskitäyteläinen,  makean hedelmäinen,  hennon tervainen,  mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  makean hedelmäinen,  hennon tervainen,  mausteinen",
     "abv": 40,
     "relativePrice": 20.96
   },
@@ -3427,7 +3361,7 @@ export default [
     "size": 0.7,
     "price": 96.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  täyteläinen,  kuivatun aprikoosinen,  päärynäinen,  kaakaoinen,  mineraalinen,  pitkä",
+    "notes": "Täyteläinen,  meripihkankeltainen,  kuivatun aprikoosinen,  päärynäinen,  kaakaoinen,  mineraalinen,  pitkä",
     "abv": 48,
     "relativePrice": 80.825
   },
@@ -3443,24 +3377,13 @@ export default [
     "relativePrice": 130.3391304347826
   },
   {
-    "id": "155167",
-    "name": "Longrow Peated Single Malt",
-    "producer": "J. & A. Mitchell",
-    "size": 0.7,
-    "price": 63.89,
-    "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  turpeinen,  kuivahedelmäinen,  hennon merisuolainen,  tamminen,  aromikas",
-    "abv": 46,
-    "relativePrice": 55.55652173913043
-  },
-  {
     "id": "001327",
     "name": "Mackinlay's Original",
     "producer": "Charles Mackinlay",
     "size": 0.7,
     "price": 26.49,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullanruskea,  miedon savuinen,  keskitäyteläinen,  kevyen turpeinen,  makean hedelmäinen,  viljainen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullanruskea,  miedon savuinen,  kevyen turpeinen,  makean hedelmäinen,  viljainen,  mausteinen",
     "abv": 40,
     "relativePrice": 26.49
   },
@@ -3482,7 +3405,7 @@ export default [
     "size": 0.7,
     "price": 42.9,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkanruskea,  keskitäyteläinen,  hedelmäinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkanruskea,  hedelmäinen,  mausteinen",
     "abv": 40,
     "relativePrice": 42.9
   },
@@ -3504,7 +3427,7 @@ export default [
     "size": 0.7,
     "price": 70.41,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  keltainen,  täyteläinen,  terävä,  hedelmäinen,  hennon viljainen,  kermatoffeinen,  hasselpähkinäinen",
+    "notes": "Täyteläinen,  keltainen,  hedelmäinen,  hennon viljainen,  kermatoffeinen,  hasselpähkinäinen",
     "abv": 59.8,
     "relativePrice": 47.096989966555185
   },
@@ -3515,7 +3438,7 @@ export default [
     "size": 0.7,
     "price": 34.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kuparinruskea,  hennon savuinen,  täyteläinen,  kuivahedelmäinen,  aprikoosinen,  kevyen kermatoffeinen,  hennon pippurinen",
+    "notes": "Täyteläinen,  kuparinruskea,  hennon savuinen,  kuivahedelmäinen,  aprikoosinen,  kevyen kermatoffeinen,  hennon pippurinen",
     "abv": 40,
     "relativePrice": 34.99
   },
@@ -3542,24 +3465,13 @@ export default [
     "relativePrice": 93.0046511627907
   },
   {
-    "id": "163867",
-    "name": "Octomore 08.4 8 Year Old Single Malt",
-    "producer": "Bruichladdich Distillery",
-    "size": 0.7,
-    "price": 201.49,
-    "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  voimakkaan savuinen,  täyteläinen,  maltainen,  suolaheinäinen,  kuivahedelmäinen,  savukinkkuinen,  tervapastillinen,  tamminen,  roteva,  pitkä",
-    "abv": 58.7,
-    "relativePrice": 137.3015332197615
-  },
-  {
     "id": "183354",
     "name": "Old Pulteney 12 Year Old Single Malt",
     "producer": "Old Pulteney Distillery",
     "size": 0.35,
     "price": 25.98,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  oljenkeltainen,  täyteläinen,  maltainen,  kuivahedelmäinen,  hasselpähkinäinen,  hennon suolaheinäinen,  pitkä",
+    "notes": "Täyteläinen,  oljenkeltainen,  maltainen,  kuivahedelmäinen,  hasselpähkinäinen,  hennon suolaheinäinen,  pitkä",
     "abv": 40,
     "relativePrice": 51.96
   },
@@ -3592,7 +3504,7 @@ export default [
     "size": 0.7,
     "price": 76.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  keltainen,  voimakkaan savuinen,  täyteläinen,  turpeinen,  kypsän hedelmäinen,  hunajainen,  mineraalinen,  hennon suolaheinäinen,  tasapainoinen",
+    "notes": "Täyteläinen,  keltainen,  voimakkaan savuinen,  turpeinen,  kypsän hedelmäinen,  hunajainen,  mineraalinen,  hennon suolaheinäinen,  tasapainoinen",
     "abv": 50,
     "relativePrice": 61.592
   },
@@ -3614,13 +3526,13 @@ export default [
     "size": 0.7,
     "price": 94.8,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  keskitäyteläinen,  sitrusmarmeladinen,  hedelmäinen,  kevyen appelsiininkuorinen,  pippurinen,  kevyen tamminen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  sitrusmarmeladinen,  hedelmäinen,  kevyen appelsiininkuorinen,  pippurinen,  kevyen tamminen",
     "abv": 46.8,
     "relativePrice": 81.02564102564104
   },
   {
     "id": "935187",
-    "name": "Royal Salute 21 Year Old Blended Whisky",
+    "name": "Royal Salute 21 Year Old Signature Blend",
     "producer": "Chivas Brothers",
     "size": 0.7,
     "price": 139.98,
@@ -3647,7 +3559,7 @@ export default [
     "size": 0.7,
     "price": 60.37,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkanruskea,  täyteläinen,  meripihkankeltainen,  lämmin,  kuivahedelmäinen,  kevyen taatelinen,  appelsiininkuorinen,  pähkinäinen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  kuivahedelmäinen,  kevyen taatelinen,  appelsiininkuorinen,  pähkinäinen",
     "abv": 46,
     "relativePrice": 52.49565217391304
   },
@@ -3669,7 +3581,7 @@ export default [
     "size": 0.7,
     "price": 58.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullanruskea,  keskitäyteläinen,  omenainen,  appelsiininkuorinen,  hennon vaniljainen",
+    "notes": "Keskitäyteläinen,  kullanruskea,  omenainen,  appelsiininkuorinen,  hennon vaniljainen",
     "abv": 40,
     "relativePrice": 58.98
   },
@@ -3691,7 +3603,7 @@ export default [
     "size": 1,
     "price": 31.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  viljainen,  hedelmäinen,  kevyen hunajainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  viljainen,  hedelmäinen,  kevyen hunajainen",
     "abv": 40,
     "relativePrice": 22.392999999999997
   },
@@ -3702,7 +3614,7 @@ export default [
     "size": 0.5,
     "price": 16.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  viljainen,  hedelmäinen,  kevyen hunajainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  viljainen,  hedelmäinen,  kevyen hunajainen",
     "abv": 40,
     "relativePrice": 23.772
   },
@@ -3713,7 +3625,7 @@ export default [
     "size": 0.7,
     "price": 22.3,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  miedon savuinen,  keskitäyteläinen,  viljainen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  miedon savuinen,  viljainen,  omenainen,  hennon pomeranssinen,  vaniljainen",
     "abv": 40,
     "relativePrice": 22.3
   },
@@ -3724,7 +3636,7 @@ export default [
     "size": 0.7,
     "price": 54.38,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkanruskea,  savuinen,  keskitäyteläinen,  keltaluumuinen,  turpeinen,  kevyen pippurinen,  puinen",
+    "notes": "Keskitäyteläinen,  meripihkanruskea,  savuinen,  keltaluumuinen,  turpeinen,  kevyen pippurinen,  puinen",
     "abv": 43,
     "relativePrice": 50.586046511627906
   },
@@ -3735,7 +3647,7 @@ export default [
     "size": 0.7,
     "price": 45.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  pehmeän aprikoosinen,  mausteinen,  hienostunut",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  pehmeän aprikoosinen,  mausteinen,  hienostunut",
     "abv": 40,
     "relativePrice": 45.99
   },
@@ -3823,7 +3735,7 @@ export default [
     "size": 0.2,
     "price": 19.17,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  täyteläinen,  pippurinen,  makean hedelmäinen,  turpeinen,  lääkeyrttinen,  rodukas",
+    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  pippurinen,  makean hedelmäinen,  turpeinen,  lääkeyrttinen,  rodukas",
     "abv": 45.8,
     "relativePrice": 58.598253275109165
   },
@@ -3834,7 +3746,7 @@ export default [
     "size": 0.7,
     "price": 54.39,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  täyteläinen,  pippurinen,  makean hedelmäinen,  turpeinen,  lääkeyrttinen,  rodukas",
+    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  pippurinen,  makean hedelmäinen,  turpeinen,  lääkeyrttinen,  rodukas",
     "abv": 45.8,
     "relativePrice": 47.50218340611354
   },
@@ -3856,7 +3768,7 @@ export default [
     "size": 0.7,
     "price": 50.35,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  täyteläinen,  turpeinen,  keltaluumuinen,  appelsiininen,  kaakaopapuinen,  mineraalinen,  kevyen suolaheinäinen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  savuinen,  turpeinen,  keltaluumuinen,  appelsiininen,  kaakaopapuinen,  mineraalinen,  kevyen suolaheinäinen",
     "abv": 45.8,
     "relativePrice": 43.97379912663756
   },
@@ -3867,7 +3779,7 @@ export default [
     "size": 0.7,
     "price": 87.35,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  täyteläinen,  kuivahedelmäinen,  appelsiininen,  maustepippurinen,  suolaheinäinen,  tupakanlehtinen",
+    "notes": "Täyteläinen,  kullankeltainen,  savuinen,  kuivahedelmäinen,  appelsiininen,  maustepippurinen,  suolaheinäinen,  tupakanlehtinen",
     "abv": 45.8,
     "relativePrice": 76.2882096069869
   },
@@ -3881,6 +3793,17 @@ export default [
     "notes": "Täyteläinen,  kullanruskea,  miedon savuinen,  hedelmäinen",
     "abv": 40,
     "relativePrice": 62.9
+  },
+  {
+    "id": "921008",
+    "name": "Tamdhu 12 Year Old Single Malt",
+    "producer": "Tamdhu Distillery",
+    "size": 0.7,
+    "price": 69.98,
+    "country": "Skotlanti",
+    "notes": "Täyteläinen,  kuparinruskea,  hedelmäinen,  mausteinen,  tasapainoinen",
+    "abv": 43,
+    "relativePrice": 65.09767441860465
   },
   {
     "id": "921315",
@@ -3900,7 +3823,7 @@ export default [
     "size": 0.7,
     "price": 24.89,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  viljainen,  hedelmäinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  viljainen,  hedelmäinen",
     "abv": 40,
     "relativePrice": 24.89
   },
@@ -3911,7 +3834,7 @@ export default [
     "size": 0.2,
     "price": 40.21,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  voimakkaan savuinen,  täyteläinen,  makean hedelmäinen,  turpeinen,  hennon mineraalinen,  pitkä",
+    "notes": "Täyteläinen,  kullankeltainen,  voimakkaan savuinen,  makean hedelmäinen,  turpeinen,  hennon mineraalinen,  pitkä",
     "abv": 46,
     "relativePrice": 122.37826086956521
   },
@@ -3933,7 +3856,7 @@ export default [
     "size": 0.7,
     "price": 190.3,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  täyteläinen,  maltainen,  aprikoosinen,  omenainen,  kermatoffeinen,  kevyen rusinainen,  hennon maitosuklainen,  robusti",
+    "notes": "Täyteläinen,  meripihkankeltainen,  maltainen,  aprikoosinen,  omenainen,  kermatoffeinen,  kevyen rusinainen,  hennon maitosuklainen,  robusti",
     "abv": 49.8,
     "relativePrice": 152.85140562248998
   },
@@ -3944,7 +3867,7 @@ export default [
     "size": 0.7,
     "price": 188.49,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  kuivatun aprikoosinen,  mantelinen,  kermatoffeinen,  tamminen,  yrttinen,  pitkä",
+    "notes": "Täyteläinen,  kullankeltainen,  kuivatun aprikoosinen,  mantelinen,  kermatoffeinen,  tamminen,  yrttinen,  pitkä",
     "abv": 47.2,
     "relativePrice": 159.73728813559322
   },
@@ -3977,7 +3900,7 @@ export default [
     "size": 0.7,
     "price": 69.94,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullankeltainen,  täyteläinen,  kypsän hedelmäinen,  kermatoffeinen,  hennon kookoksinen,  mausteinen,  pitkä",
+    "notes": "Täyteläinen,  kullankeltainen,  kypsän hedelmäinen,  kermatoffeinen,  hennon kookoksinen,  mausteinen,  pitkä",
     "abv": 53.8,
     "relativePrice": 52
   },
@@ -4010,7 +3933,7 @@ export default [
     "size": 0.7,
     "price": 69.9,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  täyteläinen,  aprikoosimarmeladinen,  kevyen suklainen,  pähkinäinen,  hennon vaniljainen,  tasapainoinen",
+    "notes": "Täyteläinen,  kullanruskea,  aprikoosimarmeladinen,  kevyen suklainen,  pähkinäinen,  hennon vaniljainen,  tasapainoinen",
     "abv": 40,
     "relativePrice": 69.9
   },
@@ -4076,7 +3999,7 @@ export default [
     "size": 0.7,
     "price": 21.5,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  hennon savuinen,  täyteläinen,  viljainen,  kevyen pähkinäinen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  hennon savuinen,  viljainen,  kevyen pähkinäinen",
     "abv": 40,
     "relativePrice": 21.5
   },
@@ -4087,7 +4010,7 @@ export default [
     "size": 0.7,
     "price": 59.98,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkanruskea,  täyteläinen,  kuivahedelmäinen,  kevyen sitruksinen,  pähkinäinen,  kaakaoinen,  mausteinen,  vaniljainen",
+    "notes": "Täyteläinen,  meripihkanruskea,  kuivahedelmäinen,  kevyen sitruksinen,  pähkinäinen,  kaakaoinen,  mausteinen,  vaniljainen",
     "abv": 40,
     "relativePrice": 59.98
   },
@@ -4098,7 +4021,7 @@ export default [
     "size": 0.7,
     "price": 87.49,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkanruskea,  täyteläinen,  aprikoosinen,  kypsän klementiininen,  kevyen punamarjainen,  suklainen,  hennon tamminen",
+    "notes": "Täyteläinen,  meripihkanruskea,  aprikoosinen,  kypsän klementiininen,  kevyen punamarjainen,  suklainen,  hennon tamminen",
     "abv": 40,
     "relativePrice": 87.49
   },
@@ -4120,7 +4043,7 @@ export default [
     "size": 0.7,
     "price": 66.38,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  täyteläinen,  maltainen,  kuivahedelmäinen,  maitosuklainen,  vohvelinen,  hasselpähkinäinen,  kevyen eukalyptuksinen",
+    "notes": "Täyteläinen,  meripihkankeltainen,  maltainen,  kuivahedelmäinen,  maitosuklainen,  vohvelinen,  hasselpähkinäinen,  kevyen eukalyptuksinen",
     "abv": 46,
     "relativePrice": 57.72173913043478
   },
@@ -4142,7 +4065,7 @@ export default [
     "size": 0.7,
     "price": 29.39,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  maltainen,  kevyen aprikoosinen,  pähkinäinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  maltainen,  kevyen aprikoosinen,  pähkinäinen,  mausteinen",
     "abv": 40,
     "relativePrice": 29.39
   },
@@ -4153,7 +4076,7 @@ export default [
     "size": 0.35,
     "price": 16.9,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  maltainen,  kevyen aprikoosinen,  pähkinäinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  maltainen,  kevyen aprikoosinen,  pähkinäinen,  mausteinen",
     "abv": 40,
     "relativePrice": 33.8
   },
@@ -4230,7 +4153,7 @@ export default [
     "size": 0.5,
     "price": 20.74,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  maltainen,  kevyen aprikoosinen,  pähkinäinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  maltainen,  kevyen aprikoosinen,  pähkinäinen,  mausteinen",
     "abv": 40,
     "relativePrice": 29.035999999999994
   },
@@ -4241,7 +4164,7 @@ export default [
     "size": 0.7,
     "price": 58,
     "country": "Skotlanti",
-    "notes": "Kevyt,  kevyt,  viheromenainen,  sitruunakarkkinen,  viljainen,  kevyen hunajainen,  tasapainoinen",
+    "notes": "Kevyt,  viheromenainen,  sitruunakarkkinen,  viljainen,  kevyen hunajainen,  tasapainoinen",
     "abv": 42,
     "relativePrice": 55.238095238095234
   },
@@ -4329,7 +4252,7 @@ export default [
     "size": 0.7,
     "price": 47.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hedelmäinen,  hennon kaakaoinen,  tyylikäs",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hedelmäinen,  hennon kaakaoinen,  tyylikäs",
     "abv": 40,
     "relativePrice": 47.99
   },
@@ -4384,7 +4307,7 @@ export default [
     "size": 0.7,
     "price": 36.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  hedelmäinen,  maltainen,  kypsän ananaksinen,  kevyen appelsiininen,  pähkinäinen,  runsas",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hedelmäinen,  maltainen,  kypsän ananaksinen,  kevyen appelsiininen,  pähkinäinen,  runsas",
     "abv": 40,
     "relativePrice": 36.98
   },
@@ -4450,7 +4373,7 @@ export default [
     "size": 0.7,
     "price": 35.99,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkanruskea,  täyteläinen,  mangoinen,  hennon päärynäinen,  vaniljainen,  kookoksinen,  hennon arrakkinen",
+    "notes": "Täyteläinen,  meripihkanruskea,  mangoinen,  hennon päärynäinen,  vaniljainen,  kookoksinen,  hennon arrakkinen",
     "abv": 40,
     "relativePrice": 35.99
   },
@@ -4461,7 +4384,7 @@ export default [
     "size": 0.5,
     "price": 16.78,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen",
     "abv": 40,
     "relativePrice": 23.492
   },
@@ -4472,7 +4395,7 @@ export default [
     "size": 1,
     "price": 30.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  hedelmäinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  hedelmäinen",
     "abv": 40,
     "relativePrice": 21.686
   },
@@ -4516,7 +4439,7 @@ export default [
     "size": 0.7,
     "price": 63.4,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  meripihkankeltainen,  täyteläinen,  sitruksinen,  toffeinen,  inkiväärinen,  kevyen pähkinäinen,  vivahteikas,  pitkä",
+    "notes": "Täyteläinen,  meripihkankeltainen,  sitruksinen,  toffeinen,  inkiväärinen,  kevyen pähkinäinen,  vivahteikas,  pitkä",
     "abv": 40,
     "relativePrice": 63.4
   },
@@ -4527,7 +4450,7 @@ export default [
     "size": 0.7,
     "price": 64.98,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  täyteläinen,  appelsiinimarmeladinen,  hennon kaakaoinen,  kevyen pähkinäinen,  tamminen",
+    "notes": "Täyteläinen,  kullanruskea,  appelsiinimarmeladinen,  hennon kaakaoinen,  kevyen pähkinäinen,  tamminen",
     "abv": 40,
     "relativePrice": 64.98
   },
@@ -4538,7 +4461,7 @@ export default [
     "size": 0.05,
     "price": 7.49,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  kullanruskea,  täyteläinen,  appelsiinimarmeladinen,  hennon kaakaoinen,  kevyen pähkinäinen,  tamminen",
+    "notes": "Täyteläinen,  kullanruskea,  appelsiinimarmeladinen,  hennon kaakaoinen,  kevyen pähkinäinen,  tamminen",
     "abv": 40,
     "relativePrice": 104.85999999999999
   },
@@ -4615,7 +4538,7 @@ export default [
     "size": 0.7,
     "price": 269.79,
     "country": "Skotlanti",
-    "notes": "Täyteläinen,  mahonginruskea,  täyteläinen,  kuivahedelmäinen,  hasselpähkinäinen,  kevyen suklainen,  mineraalinen,  tamminen,  tasapainoinen,  rodukas,  pitkä",
+    "notes": "Täyteläinen,  mahonginruskea,  kuivahedelmäinen,  hasselpähkinäinen,  kevyen suklainen,  mineraalinen,  tamminen,  tasapainoinen,  rodukas,  pitkä",
     "abv": 43,
     "relativePrice": 250.96744186046513
   },
@@ -4626,7 +4549,7 @@ export default [
     "size": 0.7,
     "price": 69.98,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  pehmeän maltainen,  runsaan hedelmäinen,  tyylikkään tamminen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  pehmeän maltainen,  runsaan hedelmäinen,  tyylikkään tamminen",
     "abv": 40,
     "relativePrice": 69.98
   },
@@ -4730,6 +4653,17 @@ export default [
     "relativePrice": 37.10697674418605
   },
   {
+    "id": "921401",
+    "name": "Tullibardine 225 Sauternes Cask Finish Single Malt",
+    "producer": "TULLIBARDINE DISTILLERY CO",
+    "size": 0.7,
+    "price": 49.99,
+    "country": "Skotlanti",
+    "notes": "Täyteläinen,  kullankeltainen,  ananaksinen,  appelsiininen,  kermainen",
+    "abv": 43,
+    "relativePrice": 46.50232558139535
+  },
+  {
     "id": "900034",
     "name": "Tullibardine 228 Burgundy Cask Finish Single Malt",
     "producer": "TULLIBARDINE DISTILLERY CO",
@@ -4769,7 +4703,7 @@ export default [
     "size": 0.7,
     "price": 22.4,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  keskitäyteläinen,  makean hedelmäinen,  kevyen viljainen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  hennon savuinen,  makean hedelmäinen,  kevyen viljainen",
     "abv": 40,
     "relativePrice": 22.4
   },
@@ -4780,7 +4714,7 @@ export default [
     "size": 0.35,
     "price": 14.19,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  keskitäyteläinen,  kevyen hedelmäinen,  hennon mineraalinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hennon savuinen,  kevyen hedelmäinen,  hennon mineraalinen",
     "abv": 40,
     "relativePrice": 28.38
   },
@@ -4791,7 +4725,7 @@ export default [
     "size": 0.7,
     "price": 26.99,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  kellanruskea,  keskitäyteläinen,  viljainen,  hedelmäinen",
+    "notes": "Keskitäyteläinen,  kellanruskea,  viljainen,  hedelmäinen",
     "abv": 40,
     "relativePrice": 26.99
   },
@@ -4802,7 +4736,7 @@ export default [
     "size": 0.7,
     "price": 57.5,
     "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  oljenkeltainen,  miedon savuinen,  keskitäyteläinen,  kuivatun omenainen,  meloninen,  pähkinäinen,  maltainen,  hennon mausteinen",
+    "notes": "Keskitäyteläinen,  oljenkeltainen,  maltainen,  kuivatun omenainen,  keltaluumuinen,  cashewpähkinäinen,  hunajainen,  kevyen kermatoffeinen,  hennon turpeinen",
     "abv": 46,
     "relativePrice": 50
   },
@@ -4824,7 +4758,7 @@ export default [
     "size": 0.5,
     "price": 69.91,
     "country": "Suomi",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  rukiinen,  kypsän hedelmäinen,  havuinen,  kermatoffeinen,  vaniljainen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  rukiinen,  kypsän hedelmäinen,  havuinen,  kermatoffeinen,  vaniljainen,  mausteinen",
     "abv": 47.5,
     "relativePrice": 82.42021052631577
   },
@@ -4846,7 +4780,7 @@ export default [
     "size": 0.5,
     "price": 69.84,
     "country": "Suomi",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  rukiinen,  kevyen hedelmäinen,  kuivatun korianterinen,  vaniljainen,  tamminen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  rukiinen,  kevyen hedelmäinen,  kuivatun korianterinen,  vaniljainen,  tamminen",
     "abv": 47.5,
     "relativePrice": 82.3376842105263
   },
@@ -4868,7 +4802,7 @@ export default [
     "size": 0.5,
     "price": 83.67,
     "country": "Suomi",
-    "notes": "Keskitäyteläinen,  vaaleankeltainen,  keskitäyteläinen,  vohvelinen,  hedelmäinen,  kermatoffeinen,  mausteinen,  kevyen tamminen,  tasapainoinen",
+    "notes": "Keskitäyteläinen,  vaaleankeltainen,  vohvelinen,  hedelmäinen,  kermatoffeinen,  mausteinen,  kevyen tamminen,  tasapainoinen",
     "abv": 43,
     "relativePrice": 108.96558139534883
   },
@@ -4879,7 +4813,7 @@ export default [
     "size": 0.5,
     "price": 64.59,
     "country": "Suomi",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  hedelmäinen,  viljainen,  kevyen turpeinen,  tervainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hedelmäinen,  viljainen,  kevyen turpeinen,  tervainen",
     "abv": 43,
     "relativePrice": 84.11720930232558
   },
@@ -4890,7 +4824,7 @@ export default [
     "size": 0.5,
     "price": 57.36,
     "country": "Suomi",
-    "notes": "Keskitäyteläinen,  keltainen,  savuinen,  keskitäyteläinen,  maltainen,  sitruksinen,  pähkinäinen,  turpeinen,  kevyen talinen,  tamminen",
+    "notes": "Keskitäyteläinen,  keltainen,  savuinen,  maltainen,  sitruksinen,  pähkinäinen,  turpeinen,  kevyen talinen,  tamminen",
     "abv": 43,
     "relativePrice": 74.7013953488372
   },
@@ -4907,7 +4841,7 @@ export default [
   },
   {
     "id": "924004",
-    "name": "Valamo Monastry Peated Single Malt",
+    "name": "Valamo Monastery Peated Single Malt",
     "producer": "Valamon Luostarin Tislaamo",
     "size": 0.5,
     "price": 89.39,
@@ -4934,7 +4868,7 @@ export default [
     "size": 0.7,
     "price": 39.99,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  kullanruskea,  keskitäyteläinen,  aprikoosinen,  banaaninen,  hunajainen,  vaniljainen,  tamminen",
+    "notes": "Keskitäyteläinen,  kullanruskea,  aprikoosinen,  banaaninen,  hunajainen,  vaniljainen,  tamminen",
     "abv": 40,
     "relativePrice": 39.99
   },
@@ -4945,7 +4879,7 @@ export default [
     "size": 0.7,
     "price": 38.68,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkanruskea,  keskitäyteläinen,  kuivahedelmäinen,  kevyen rukiinen,  mausteinen,  tamminen",
+    "notes": "Keskitäyteläinen,  meripihkanruskea,  kuivahedelmäinen,  kevyen rukiinen,  mausteinen,  tamminen",
     "abv": 45,
     "relativePrice": 34.38222222222222
   },
@@ -4956,7 +4890,7 @@ export default [
     "size": 0.7,
     "price": 45.99,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  kuparinruskea,  täyteläinen,  hedelmäinen,  kevyen pomeranssinen,  mausteinen,  hapanleipäinen,  runsaan tamminen,  roteva",
+    "notes": "Täyteläinen,  kuparinruskea,  hedelmäinen,  kevyen pomeranssinen,  mausteinen,  hapanleipäinen,  runsaan tamminen,  roteva",
     "abv": 45,
     "relativePrice": 40.88
   },
@@ -4967,7 +4901,7 @@ export default [
     "size": 0.7,
     "price": 29.98,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  kookoksinen,  kuivahedelmäinen,  pähkinäinen,  kevyen kermatoffeinen,  hennon kanelinen,  pippurinen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  kookoksinen,  kuivahedelmäinen,  pähkinäinen,  kevyen kermatoffeinen,  hennon kanelinen,  pippurinen",
     "abv": 43,
     "relativePrice": 27.888372093023257
   },
@@ -4978,7 +4912,7 @@ export default [
     "size": 0.7,
     "price": 68.45,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  pehmeä,  kuivahedelmäinen,  vohvelinen,  yrttinen,  tamminen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  kuivahedelmäinen,  vohvelinen,  yrttinen,  tamminen",
     "abv": 43.3,
     "relativePrice": 63.233256351039266
   },
@@ -4989,7 +4923,7 @@ export default [
     "size": 0.7,
     "price": 79.9,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  meripihkanruskea,  täyteläinen,  kuivahedelmäinen,  aprikoosinen,  pippurinen,  kaakaoinen,  tamminen",
+    "notes": "Täyteläinen,  meripihkanruskea,  kuivahedelmäinen,  aprikoosinen,  pippurinen,  kaakaoinen,  tamminen",
     "abv": 46.5,
     "relativePrice": 68.73118279569893
   },
@@ -5000,7 +4934,7 @@ export default [
     "size": 0.7,
     "price": 94.95,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  meripihkanruskea,  täyteläinen,  kuivahedelmäinen,  rukiinen,  pähkinäinen,  tamminen",
+    "notes": "Täyteläinen,  meripihkanruskea,  kuivahedelmäinen,  rukiinen,  pähkinäinen,  tamminen",
     "abv": 46.5,
     "relativePrice": 81.67741935483872
   },
@@ -5011,7 +4945,7 @@ export default [
     "size": 0.35,
     "price": 15.49,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  kullanruskea,  keskitäyteläinen,  kookoksinen,  vaniljainen,  kevyen kaakaoinen",
+    "notes": "Keskitäyteläinen,  kullanruskea,  kookoksinen,  vaniljainen,  kevyen kaakaoinen",
     "abv": 40,
     "relativePrice": 30.98
   },
@@ -5033,7 +4967,7 @@ export default [
     "size": 0.7,
     "price": 59.98,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  kuparinruskea,  täyteläinen,  terävä,  mangoinen,  hedelmäleivoksinen,  kaakaoinen,  toffeinen,  yrttinen,  tasapainoinen",
+    "notes": "Täyteläinen,  kuparinruskea,  mangoinen,  hedelmäleivoksinen,  kaakaoinen,  toffeinen,  yrttinen,  tasapainoinen",
     "abv": 50,
     "relativePrice": 47.984
   },
@@ -5044,7 +4978,7 @@ export default [
     "size": 0.7,
     "price": 58,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  kuparinruskea,  täyteläinen,  trooppisen hedelmäinen,  kaakaoinen,  toffeinen,  yrttinen,  tasapainoinen",
+    "notes": "Täyteläinen,  kuparinruskea,  trooppisen hedelmäinen,  kaakaoinen,  toffeinen,  yrttinen,  tasapainoinen",
     "abv": 50,
     "relativePrice": 46.400000000000006
   },
@@ -5088,7 +5022,7 @@ export default [
     "size": 0.7,
     "price": 35.99,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  banaaninen,  trooppisen hedelmäinen,  mausteinen,  hennon vaniljainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  banaaninen,  trooppisen hedelmäinen,  mausteinen,  hennon vaniljainen",
     "abv": 40,
     "relativePrice": 35.99
   },
@@ -5099,7 +5033,7 @@ export default [
     "size": 3,
     "price": 149.9,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  vaaleanruskea,  keskitäyteläinen,  kevyen banaaninen,  mausteinen,  hennon vaniljainen",
+    "notes": "Keskitäyteläinen,  vaaleanruskea,  kevyen banaaninen,  mausteinen,  hennon vaniljainen",
     "abv": 40,
     "relativePrice": 34.97666666666667
   },
@@ -5110,7 +5044,7 @@ export default [
     "size": 0.2,
     "price": 10.98,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  banaaninen,  trooppisen hedelmäinen,  mausteinen,  hennon vaniljainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  banaaninen,  trooppisen hedelmäinen,  mausteinen,  hennon vaniljainen",
     "abv": 40,
     "relativePrice": 38.43
   },
@@ -5121,7 +5055,7 @@ export default [
     "size": 0.5,
     "price": 25.99,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  banaaninen,  trooppisen hedelmäinen,  mausteinen,  hennon vaniljainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  banaaninen,  trooppisen hedelmäinen,  mausteinen,  hennon vaniljainen",
     "abv": 40,
     "relativePrice": 36.385999999999996
   },
@@ -5137,13 +5071,24 @@ export default [
     "relativePrice": 51.519999999999996
   },
   {
+    "id": "196887",
+    "name": "Jack Daniel's Rye",
+    "producer": "Jack Daniel Distillery",
+    "size": 0.7,
+    "price": 39.99,
+    "country": "Yhdysvallat",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  rukiinen,  omenainen,  kevyen päärynäinen,  hennon hunajainen,  mausteinen",
+    "abv": 45,
+    "relativePrice": 35.54666666666667
+  },
+  {
     "id": "174167",
     "name": "Jack Daniel's Single Barrel Select",
     "producer": "Jack Daniel Distillery",
     "size": 0.7,
     "price": 59.89,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  kuparinruskea,  täyteläinen,  kuivatun taatelinen,  banaaninen,  kermatoffeinen,  hennon kaakaoinen,  paahteinen,  vivahteikas",
+    "notes": "Täyteläinen,  kuparinruskea,  kuivatun taatelinen,  banaaninen,  kermatoffeinen,  hennon kaakaoinen,  paahteinen,  vivahteikas",
     "abv": 45,
     "relativePrice": 53.23555555555555
   },
@@ -5165,7 +5110,7 @@ export default [
     "size": 0.5,
     "price": 19.98,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  hedelmäinen,  banaaninen,  viljainen,  vaniljainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hedelmäinen,  banaaninen,  viljainen,  vaniljainen",
     "abv": 40,
     "relativePrice": 27.971999999999998
   },
@@ -5176,7 +5121,7 @@ export default [
     "size": 0.2,
     "price": 9.49,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  hedelmäinen,  banaaninen,  viljainen,  vaniljainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hedelmäinen,  banaaninen,  viljainen,  vaniljainen",
     "abv": 40,
     "relativePrice": 33.214999999999996
   },
@@ -5187,7 +5132,7 @@ export default [
     "size": 0.7,
     "price": 27.49,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkankeltainen,  keskitäyteläinen,  hedelmäinen,  banaaninen,  viljainen,  vaniljainen",
+    "notes": "Keskitäyteläinen,  meripihkankeltainen,  hedelmäinen,  banaaninen,  viljainen,  vaniljainen",
     "abv": 40,
     "relativePrice": 27.49
   },
@@ -5209,7 +5154,7 @@ export default [
     "size": 0.7,
     "price": 33.89,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  kullanruskea,  keskitäyteläinen,  imelän viljainen,  hennon banaaninen,  kevyen vaniljainen",
+    "notes": "Keskitäyteläinen,  kullanruskea,  imelän viljainen,  hennon banaaninen,  kevyen vaniljainen",
     "abv": 40,
     "relativePrice": 33.89
   },
@@ -5220,7 +5165,7 @@ export default [
     "size": 0.7,
     "price": 25.78,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  kullankeltainen,  keskitäyteläinen,  kypsän hedelmäinen,  kermatoffeinen,  mausteinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  kypsän hedelmäinen,  kermatoffeinen,  mausteinen",
     "abv": 40,
     "relativePrice": 25.78
   },
@@ -5231,7 +5176,7 @@ export default [
     "size": 0.7,
     "price": 52.9,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  kuparinruskea,  täyteläinen,  hedelmäinen,  kevyen banaaninen,  hennon rukiinen,  mausteinen,  tamminen,  robusti",
+    "notes": "Täyteläinen,  kuparinruskea,  hedelmäinen,  kevyen banaaninen,  hennon rukiinen,  mausteinen,  tamminen,  robusti",
     "abv": 50,
     "relativePrice": 42.32
   },
@@ -5242,7 +5187,7 @@ export default [
     "size": 0.7,
     "price": 55.77,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  meripihkankeltainen,  täyteläinen,  rukiinen,  kevyen herukkainen,  mustapippurinen,  tamminen,  yrttinen,  vivahteikas",
+    "notes": "Täyteläinen,  meripihkankeltainen,  rukiinen,  kevyen herukkainen,  mustapippurinen,  tamminen,  yrttinen,  vivahteikas",
     "abv": 50,
     "relativePrice": 44.61600000000001
   },
@@ -5264,7 +5209,7 @@ export default [
     "size": 0.7,
     "price": 39.99,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  kullanruskea,  täyteläinen,  persikkainen,  hennon karvasmantelinen,  tamminen,  kevyen kinuskinen",
+    "notes": "Täyteläinen,  kullanruskea,  persikkainen,  hennon karvasmantelinen,  tamminen,  kevyen kinuskinen",
     "abv": 45,
     "relativePrice": 35.54666666666667
   },
@@ -5275,7 +5220,7 @@ export default [
     "size": 0.7,
     "price": 69.99,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  keltainen,  miedon savuinen,  keskitäyteläinen,  tupakanlehtinen,  kuivahedelmäinen,  viheromenainen,  nokinen",
+    "notes": "Keskitäyteläinen,  keltainen,  miedon savuinen,  tupakanlehtinen,  kuivahedelmäinen,  viheromenainen,  nokinen",
     "abv": 42.5,
     "relativePrice": 65.87294117647058
   },
@@ -5319,7 +5264,7 @@ export default [
     "size": 0.7,
     "price": 25.99,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkanruskea,  keskitäyteläinen,  kuivatun aprikoosinen,  kookoksinen,  hennon mausteinen",
+    "notes": "Keskitäyteläinen,  meripihkanruskea,  kuivatun aprikoosinen,  kookoksinen,  hennon mausteinen",
     "abv": 40,
     "relativePrice": 25.99
   },
@@ -5330,7 +5275,7 @@ export default [
     "size": 0.7,
     "price": 26.49,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  kullanruskea,  keskitäyteläinen,  pähkinäinen,  toffeinen,  hennon kookoksinen",
+    "notes": "Keskitäyteläinen,  kullanruskea,  pähkinäinen,  toffeinen,  hennon kookoksinen",
     "abv": 40,
     "relativePrice": 26.49
   },
@@ -5341,7 +5286,7 @@ export default [
     "size": 0.7,
     "price": 49.95,
     "country": "Yhdysvallat",
-    "notes": "Keskitäyteläinen,  meripihkanruskea,  keskitäyteläinen,  aprikoosinen,  kaakaoinen,  kevyen kukkainen,  mausteinen,  hennon lääkeyrttinen,  vivahteikas",
+    "notes": "Keskitäyteläinen,  meripihkanruskea,  aprikoosinen,  kaakaoinen,  kevyen kukkainen,  mausteinen,  hennon lääkeyrttinen,  vivahteikas",
     "abv": 45.2,
     "relativePrice": 44.203539823008846
   },
@@ -5385,7 +5330,7 @@ export default [
     "size": 0.7,
     "price": 49.99,
     "country": "Yhdysvallat",
-    "notes": "Täyteläinen,  meripihkanruskea,  täyteläinen,  trooppisen hedelmäinen,  omenainen,  kevyen vohvelinen,  mausteinen,  tamminen,  vivahteikas",
+    "notes": "Täyteläinen,  meripihkanruskea,  trooppisen hedelmäinen,  omenainen,  kevyen vohvelinen,  mausteinen,  tamminen,  vivahteikas",
     "abv": 43.2,
     "relativePrice": 46.28703703703703
   },
@@ -5400,4 +5345,4 @@ export default [
     "abv": 45.2,
     "relativePrice": 123.87610619469025
   }
-];
+]

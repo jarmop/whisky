@@ -1,43 +1,53 @@
 /**
- * Parse data from csv created from xlsx-file available in https://www.alko.fi/valikoimat-ja-hinnasto/hinnasto
+ * Parse data from xlsx-file available in https://www.alko.fi/valikoimat-ja-hinnasto/hinnasto
  **/
 
-const readline = require('readline');
+const XLSX = require('xlsx');
 const fs = require('fs');
-const results = [];
 
 const filePath = process.argv[2];
-
-const readInterface = readline.createInterface({
-  input: fs.createReadStream(filePath),
-});
+const workbook = XLSX.readFile(filePath);
 
 function getRelativePrice(product) {
   return (40 / product.abv * product.price * (0.7 / product.size));
 }
 
-const separator = ';';
-let lineNumber = 1;
-readInterface.on('line', function(line) {
-  if (lineNumber > 4) {
-    let values = line.split(separator);
-    if (values[8] === 'viskit') {
-      let product = {
-        id: values[0],
-        name: values[1],
-        producer: values[2],
-        size: parseFloat(values[3].replace(' l', '').replace(',', '.')),
-        price: parseFloat(values[4]),
-        country: values[11],
-        notes: values[17],
-        abv: parseFloat(values[20]),
-      };
-      product.relativePrice = getRelativePrice(product);
+let sheetName = workbook.SheetNames[0];
+let sheet = workbook.Sheets[sheetName];
 
-      results.push(product);
-    }
+const columns = {
+  id: 'A',
+  name: 'B',
+  producer: 'C',
+  size: 'D',
+  price: 'E',
+  type: 'I',
+  country: 'L',
+  notes: 'R',
+  abv: 'U',
+};
+typeColumn = 'I';
+
+let finalRowNumber = parseInt(sheet['!ref'].replace('A1:', '').replace(/\D/g,''));
+let products = [];
+for (let row = 5; row <= finalRowNumber; row++) {
+  if (sheet[columns.type + row] === undefined) {
+    continue;
   }
-  lineNumber++;
-}).on('close', () => {
-  fs.writeFileSync('alko.json', JSON.stringify(results));
-});
+  if (sheet[columns.type + row].v === 'viskit') {
+    let product = {
+      id: sheet[columns.id + row].v,
+      name: sheet[columns.name + row].v,
+      producer: sheet[columns.producer + row].v,
+      size: parseFloat(sheet[columns.size + row].v.replace(' l', '').replace(',', '.')),
+      price: parseFloat(sheet[columns.price + row].v),
+      country: sheet[columns.country + row].v,
+      notes: sheet[columns.notes + row].v,
+      abv: parseFloat(sheet[columns.abv + row].v),
+    };
+    product.relativePrice = getRelativePrice(product);
+    products.push(product);
+  }
+}
+
+fs.writeFileSync('alko.json', JSON.stringify(products));
