@@ -15,3 +15,17 @@ table.table td {
     border-bottom: 1px solid;
     white-space: nowrap;
 }
+
+.filter-container {
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    grid-gap: 10px;
+}
+
+.filter {
+    white-space: nowrap;
+}
+
+.priceRangeInput {
+    width: 60px;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import {formatPrice} from './library';
 
 let AlkoList = ({products}) => (
     <table className="table">
@@ -35,13 +36,13 @@ let AlkoList = ({products}) => (
               {product.name}
             </td>
             <td>
-              {product.relativePrice.toFixed(2)} €
+              {formatPrice(product.relativePrice)} €
             </td>
             <td>
               {product.abv} %
             </td>
             <td>
-              {product.price.toFixed(2)} €
+              {formatPrice(product.price)} €
             </td>
             <td>
               {product.size} l
