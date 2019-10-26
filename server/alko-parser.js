@@ -3,18 +3,19 @@
  **/
 
 const fs = require('fs');
-const request = require("request-promise-native");
+const request = require('request-promise-native');
 const XLSX = require('xlsx');
 
-const filePath = 'file.xlsx';
+const xlsxTempFilePath = 'file.xlsx';
 const url = 'https://www.alko.fi/INTERSHOP/static/WFS/Alko-OnlineShop-Site/-/Alko-OnlineShop/fi_FI/Alkon%20Hinnasto%20Tekstitiedostona/alkon-hinnasto-tekstitiedostona.xlsx';
+const outputFilePath = '../app/src/data/alko.json';
 
 function getRelativePrice(product) {
   return (40 / product.abv * product.price * (0.7 / product.size));
 }
 
 function parseXlsx() {
-  const workbook = XLSX.readFile(filePath);
+  const workbook = XLSX.readFile(xlsxTempFilePath);
 
   let sheetName = workbook.SheetNames[0];
   let sheet = workbook.Sheets[sheetName];
@@ -54,15 +55,18 @@ function parseXlsx() {
     }
   }
 
-  fs.writeFileSync('alko.json', JSON.stringify(products));
+  console.log('Writing json to ' + outputFilePath);
+  fs.writeFileSync(outputFilePath, JSON.stringify(products));
 }
 
-async function downloadAndParseXLSX(xlsxURL, outputFilename) {
-  let xlsxBuffer = await request.get({uri: xlsxURL, encoding: null});
-  console.log("Writing downloaded xlsx file to " + outputFilename + "...");
-  fs.writeFileSync(outputFilename, xlsxBuffer);
+async function downloadAndParseXLSX() {
+  let xlsxBuffer = await request.get({uri: url, encoding: null});
+  console.log('Writing downloaded xlsx file to ' + xlsxTempFilePath);
+  fs.writeFileSync(xlsxTempFilePath, xlsxBuffer);
 
   parseXlsx();
+
+  fs.unlink(xlsxTempFilePath, () => console.log('Removed ' + xlsxTempFilePath));
 }
 
-downloadAndParseXLSX(url, filePath);
+downloadAndParseXLSX();
