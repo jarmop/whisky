@@ -600,7 +600,7 @@ export default [
     "size": 0.7,
     "price": 29.95,
     "country": "Irlanti",
-    "notes": "Keskitäyteläinen,  vaaleankeltainen,  makean viljainen,  kevyen vaniljainen",
+    "notes": "Keskitäyteläinen,  vaaleankeltainen,  päärynäinen,  kevyen banaaninen,  makean viljainen,  kevyen vaniljainen",
     "abv": 40,
     "relativePrice": 29.95
   },
@@ -776,7 +776,7 @@ export default [
     "size": 0.7,
     "price": 23.98,
     "country": "Kanada",
-    "notes": "Kevyt,  kullankeltainen,  kevyen aprikoosinen,  toffeinen,  hennon mustapippurinen",
+    "notes": "Keskitäyteläinen,  kullankeltainen,  kevyen hedelmäinen,  vaniljainen",
     "abv": 40,
     "relativePrice": 23.98
   },
@@ -2574,17 +2574,6 @@ export default [
     "relativePrice": 52.086956521739125
   },
   {
-    "id": "950937",
-    "name": "Hazelburn 9 Years Barolo Cask Single Malt",
-    "producer": "J. & A. Mitchell & Co.",
-    "size": 0.7,
-    "price": 89.9,
-    "country": "Skotlanti",
-    "notes": "Keskitäyteläinen,  meripihkanruskea,  hedelmäinen,  kookoksinen,  kuivahedelmäinen",
-    "abv": 57.9,
-    "relativePrice": 62.10708117443869
-  },
-  {
     "id": "001334",
     "name": "Highland Bird",
     "producer": "Robert McKie Neil Co",
@@ -4365,6 +4354,17 @@ export default [
     "notes": "Erittäin täyteläinen,  kullanruskea,  keksinen,  kermatoffeinen,  hedelmäinen",
     "abv": 55.4,
     "relativePrice": 136.4620938628159
+  },
+  {
+    "id": "949443",
+    "name": "The Glenlivet XXV Year Old Single Malt",
+    "producer": "The Glenlivet Distillery",
+    "size": 0.7,
+    "price": 379,
+    "country": "Skotlanti",
+    "notes": "Erittäin täyteläinen,  meripihkankeltainen,  tummasuklainen,  hedelmäkakkuinen,  mausteinen",
+    "abv": 43,
+    "relativePrice": 352.5581395348837
   },
   {
     "id": "180517",
