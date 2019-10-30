@@ -65,7 +65,7 @@ class App extends React.Component {
               )}
             </select>
             <div className="filter">
-              <label>price range: </label>
+              <label>Price range: </label>
               <input
                   className="priceRangeInput"
                   name="minprice"
@@ -84,7 +84,7 @@ class App extends React.Component {
             </div>
           </div>
 
-          {' tuotteita: ' + products.length}
+          {' Products: ' + products.length}
 
           <AlkoList products={products}/>
         </div>

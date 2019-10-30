@@ -22,6 +22,9 @@ let AlkoList = ({products}) => (
           Size
         </th>
         <th>
+          Added
+        </th>
+        <th>
           Country
         </th>
         <th>
@@ -46,6 +49,9 @@ let AlkoList = ({products}) => (
             </td>
             <td>
               {product.size} l
+            </td>
+            <td>
+              {(new Date(product.timeAdded)).toLocaleDateString()}
             </td>
             <td>
               {product.country}

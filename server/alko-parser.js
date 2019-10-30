@@ -10,15 +10,20 @@ const xlsxTempFilePath = 'file.xlsx';
 const url = 'https://www.alko.fi/INTERSHOP/static/WFS/Alko-OnlineShop-Site/-/Alko-OnlineShop/fi_FI/Alkon%20Hinnasto%20Tekstitiedostona/alkon-hinnasto-tekstitiedostona.xlsx';
 const outputFilePath = '../app/src/data/alko.json';
 
+const alko = require(outputFilePath);
+const alkoIdMap = new Map();
+alko.forEach(product => {
+  alkoIdMap.set(product.id, product);
+});
+
 function getRelativePrice(product) {
   return (40 / product.abv * product.price * (0.7 / product.size));
 }
 
 function parseXlsx() {
   const workbook = XLSX.readFile(xlsxTempFilePath);
-
-  let sheetName = workbook.SheetNames[0];
-  let sheet = workbook.Sheets[sheetName];
+  const sheetName = workbook.SheetNames[0];
+  const sheet = workbook.Sheets[sheetName];
 
   const columns = {
     id: 'A',
@@ -33,8 +38,9 @@ function parseXlsx() {
   };
   typeColumn = 'I';
 
-  let finalRowNumber = parseInt(sheet['!ref'].replace('A1:', '').replace(/\D/g,''));
+  const finalRowNumber = parseInt(sheet['!ref'].replace('A1:', '').replace(/\D/g,''));
   let products = [];
+  const timeAdded = new Date();
   for (let row = 5; row <= finalRowNumber; row++) {
     if (sheet[columns.type + row] === undefined) {
       continue;
@@ -51,6 +57,10 @@ function parseXlsx() {
         abv: parseFloat(sheet[columns.abv + row].v),
       };
       product.relativePrice = getRelativePrice(product);
+
+      const oldProduct = alkoIdMap.get(product.id);
+      product.timeAdded = oldProduct === undefined ? timeAdded : oldProduct.timeAdded;
+
       products.push(product);
     }
   }
