@@ -1,5 +1,5 @@
 import React from 'react';
-import {formatPrice} from './library';
+import {formatPrice, TODAY} from './library';
 
 let AlkoList = ({products}) => (
     <table className="table">
@@ -34,7 +34,7 @@ let AlkoList = ({products}) => (
       </thead>
       <tbody>
       {products.map(product =>
-          <tr key={product.id}>
+          <tr key={product.id} className={product.timeAdded === TODAY ? 'added-today' : ''}>
             <td>
               {product.name}
             </td>

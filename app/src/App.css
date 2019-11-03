@@ -29,3 +29,7 @@ table.table td {
 .priceRangeInput {
     width: 60px;
 }
+
+.added-today {
+    background-color: palegreen;
+}

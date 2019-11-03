@@ -41,6 +41,7 @@ function parseXlsx() {
   const finalRowNumber = parseInt(sheet['!ref'].replace('A1:', '').replace(/\D/g,''));
   let products = [];
   const timeAdded = new Date();
+  timeAdded.setUTCHours(0,0,0,0);
   for (let row = 5; row <= finalRowNumber; row++) {
     if (sheet[columns.type + row] === undefined) {
       continue;

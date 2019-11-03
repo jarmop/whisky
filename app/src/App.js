@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import allProducts from './data/alko';
 import AlkoList from './AlkoList';
-import {formatPrice} from './library';
+import {formatPrice, TODAY} from './library';
 
 const defaultMinRelativePrice = 40;
 let highestRelativePrice = 0;
@@ -44,15 +44,35 @@ class App extends React.Component {
   }
 
   render() {
+    // let products = allProducts;
     let products = allProducts.filter(product =>
       product.country === this.state.selectedCountry && product.relativePrice > this.state.minRelativePrice && product.relativePrice < this.state.maxRelativePrice
     );
+
     products.sort((a, b) => {
-      if (a.country === b.country) {
-        return a.relativePrice - b.relativePrice;
-      } else {
-        return 0;
+      const sortOrder = {
+        country: 'asc',
+        relativePrice: 'asc',
+      };
+
+      // Sort new whiskies first
+      if (a.timeAdded === TODAY || b.timeAdded === TODAY) {
+        let value = (new Date(b.timeAdded)).getTime() - (new Date(a.timeAdded)).getTime();
+        if (value !== 0) {
+          return value;
+        }
       }
+
+      for (let order in sortOrder) {
+        let valA = a[order];
+        let valB = b[order];
+        if (valA < valB) {
+          return sortOrder[order] === 'asc' ? -1 : 1;
+        } if (valA > valB) {
+          return sortOrder[order] === 'asc' ? 1 : -1;
+        }
+      }
+      return 0;
     });
 
     return (
