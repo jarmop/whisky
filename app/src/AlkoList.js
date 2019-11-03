@@ -1,5 +1,7 @@
 import React from 'react';
 import {formatPrice, TODAY} from './library';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faAngleUp} from '@fortawesome/free-solid-svg-icons';
 
 let AlkoList = ({products}) => (
     <table className="table">
@@ -8,12 +10,12 @@ let AlkoList = ({products}) => (
         <th>
           Name
         </th>
-        <th>
+        <th className="sorting">
           Price per 0.7 l of 40 %
+          <FontAwesomeIcon icon={faAngleUp} />
         </th>
         <th>
           Abv
-
         </th>
         <th>
           Price

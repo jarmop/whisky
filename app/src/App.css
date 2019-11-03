@@ -33,3 +33,9 @@ table.table td {
 .added-today {
     background-color: palegreen;
 }
+
+.sorting {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+}
