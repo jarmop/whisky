@@ -16,6 +16,12 @@ alko.forEach(product => {
   alkoIdMap.set(product.id, product);
 });
 
+async function downloadXLSX() {
+  let xlsxBuffer = await request.get({uri: url, encoding: null});
+  console.log('Writing downloaded xlsx file to ' + xlsxTempFilePath);
+  fs.writeFileSync(xlsxTempFilePath, xlsxBuffer);
+}
+
 function getRelativePrice(product) {
   return (40 / product.abv * product.price * (0.7 / product.size));
 }
@@ -32,49 +38,40 @@ function parseXlsx() {
     size: 'D',
     price: 'E',
     type: 'I',
-    country: 'L',
-    notes: 'R',
-    abv: 'U',
+    country: 'M',
+    notes: 'S',
+    abv: 'V',
   };
-  typeColumn = 'I';
 
-  const finalRowNumber = parseInt(sheet['!ref'].replace('A1:', '').replace(/\D/g,''));
-  let products = [];
+  const whiskyRowNumbers = Object.keys(sheet).filter(key => sheet[key].v === 'viskit').map(key => key.replace(columns.type, ''))
   const timeAdded = new Date();
   timeAdded.setUTCHours(0,0,0,0);
-  for (let row = 5; row <= finalRowNumber; row++) {
-    if (sheet[columns.type + row] === undefined) {
-      continue;
-    }
-    if (sheet[columns.type + row].v === 'viskit') {
-      let product = {
-        id: sheet[columns.id + row].v,
-        name: sheet[columns.name + row].v,
-        producer: sheet[columns.producer + row].v,
-        size: parseFloat(sheet[columns.size + row].v.replace(' l', '').replace(',', '.')),
-        price: parseFloat(sheet[columns.price + row].v),
-        country: sheet[columns.country + row].v,
-        notes: sheet[columns.notes + row].v,
-        abv: parseFloat(sheet[columns.abv + row].v),
-      };
-      product.relativePrice = getRelativePrice(product);
+  const getRawValue = cell => cell.v;
+  const products = whiskyRowNumbers.map((row, index) => {
+    let product = {
+      id: getRawValue(sheet[columns.id + row]),
+      name: getRawValue(sheet[columns.name + row]),
+      producer: getRawValue(sheet[columns.producer + row]),
+      size: parseFloat(getRawValue(sheet[columns.size + row]).replace(' l', '').replace(',', '.')),
+      price: parseFloat(getRawValue(sheet[columns.price + row])),
+      country: getRawValue(sheet[columns.country + row]),
+      notes: getRawValue(sheet[columns.notes + row]),
+      abv: parseFloat(getRawValue(sheet[columns.abv + row])),
+    };
+    product.relativePrice = getRelativePrice(product);
 
-      const oldProduct = alkoIdMap.get(product.id);
-      product.timeAdded = oldProduct === undefined ? timeAdded : oldProduct.timeAdded;
+    const oldProduct = alkoIdMap.get(product.id);
+    product.timeAdded = oldProduct === undefined ? timeAdded : oldProduct.timeAdded;
 
-      products.push(product);
-    }
-  }
+    return product;
+  })
 
   console.log('Writing json to ' + outputFilePath);
   fs.writeFileSync(outputFilePath, JSON.stringify(products));
 }
 
 async function downloadAndParseXLSX() {
-  let xlsxBuffer = await request.get({uri: url, encoding: null});
-  console.log('Writing downloaded xlsx file to ' + xlsxTempFilePath);
-  fs.writeFileSync(xlsxTempFilePath, xlsxBuffer);
-
+  await downloadXLSX();
   parseXlsx();
 
   fs.unlink(xlsxTempFilePath, () => console.log('Removed ' + xlsxTempFilePath));
