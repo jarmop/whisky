@@ -4,11 +4,11 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faAngleUp} from '@fortawesome/free-solid-svg-icons';
 import { Product } from './types';
 
-interface AlkoListParams {
+interface ListParams {
   products: Product[],
 }
 
-let AlkoList = ({products}: AlkoListParams) => (
+let List = ({products}: ListParams) => (
     <table className="table">
       <thead>
       <tr>
@@ -72,4 +72,4 @@ let AlkoList = ({products}: AlkoListParams) => (
     </table>
 );
 
-export default AlkoList;
+export default List;
