@@ -5,12 +5,10 @@ import {
     Route,
 } from 'react-router-dom';
 import Catalog from 'Catalog/Catalog';
+import DistilleryMap from 'DistilleryMap/DistilleryMap';
 
 export default function App() {
-
     const catalogUrl = process.env.PUBLIC_URL + '/catalog';
-    console.log(catalogUrl)
-
     return (
         <Router>
             <Switch>
@@ -18,7 +16,7 @@ export default function App() {
                     <Catalog/>
                 </Route>
                 <Route path="/">
-                    <div>test</div>
+                    <DistilleryMap/>
                 </Route>
             </Switch>
         </Router>
