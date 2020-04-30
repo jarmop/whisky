@@ -2,8 +2,13 @@ import React from 'react';
 import {formatPrice, TODAY} from './library';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faAngleUp} from '@fortawesome/free-solid-svg-icons';
+import { Product } from './types';
 
-let AlkoList = ({products}) => (
+interface AlkoListParams {
+  products: Product[],
+}
+
+let AlkoList = ({products}: AlkoListParams) => (
     <table className="table">
       <thead>
       <tr>

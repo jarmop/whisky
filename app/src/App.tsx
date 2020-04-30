@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
-import allProducts from './data/alko';
+import allProductsJSON from './data/alko.json';
 import AlkoList from './AlkoList';
 import {formatPrice, TODAY} from './library';
+import { Product } from './types';
+
+const allProducts: Product[] = allProductsJSON;
 
 const defaultMinRelativePrice = 40;
 let highestRelativePrice = 0;
 const countryOptions = allProducts.reduce(
-    (accumulator, product) => {
+    (accumulator: string[], product) => {
       if (product.relativePrice > highestRelativePrice) {
-        highestRelativePrice = formatPrice(product.relativePrice);
+        highestRelativePrice = product.relativePrice;
       }
       if (!accumulator.includes(product.country)) {
         accumulator.push(product.country);
@@ -19,9 +22,19 @@ const countryOptions = allProducts.reduce(
     []
 );
 
+
+
+type State = {
+  selectedCountry: string,
+  minRelativePrice: number,
+  maxRelativePrice: number,
+}
+
 class App extends React.Component {
-  constructor() {
-    super();
+  readonly state: State;
+
+  constructor(props: any) {
+    super(props);
 
     this.state = {
       selectedCountry: 'Skotlanti',
@@ -30,13 +43,13 @@ class App extends React.Component {
     };
   }
 
-  setSelectedCountry(country) {
+  setSelectedCountry(country: string) {
     this.setState({
       selectedCountry: country,
     });
   }
 
-  setPriceRange(min, max) {
+  setPriceRange(min: number, max: number) {
     this.setState({
       minRelativePrice: min,
       maxRelativePrice: max,
@@ -49,8 +62,8 @@ class App extends React.Component {
       product.country === this.state.selectedCountry && product.relativePrice > this.state.minRelativePrice && product.relativePrice < this.state.maxRelativePrice
     );
 
-    products.sort((a, b) => {
-      const sortOrder = {
+    products.sort((a: Product, b: Product) => {
+      const sortOrder: {[key: string]: string} = {
         country: 'asc',
         relativePrice: 'asc',
       };
@@ -63,13 +76,13 @@ class App extends React.Component {
         }
       }
 
-      for (let order in sortOrder) {
-        let valA = a[order];
-        let valB = b[order];
+      for (let orderKey in sortOrder) {
+        let valA = a[orderKey];
+        let valB = b[orderKey];
         if (valA < valB) {
-          return sortOrder[order] === 'asc' ? -1 : 1;
+          return sortOrder[orderKey] === 'asc' ? -1 : 1;
         } if (valA > valB) {
-          return sortOrder[order] === 'asc' ? 1 : -1;
+          return sortOrder[orderKey] === 'asc' ? 1 : -1;
         }
       }
       return 0;
@@ -90,16 +103,16 @@ class App extends React.Component {
                   className="priceRangeInput"
                   name="minprice"
                   type="number"
-                  defaultValue={this.state.minRelativePrice}
-                  onChange={event => this.setPriceRange(event.target.value, this.state.maxRelativePrice)}
+                  defaultValue={formatPrice(this.state.minRelativePrice)}
+                  onChange={event => this.setPriceRange(parseFloat(event.target.value), this.state.maxRelativePrice)}
               />
               {' - '}
               <input
                   className="priceRangeInput"
                   name="maxprice"
                   type="number"
-                  defaultValue={this.state.maxRelativePrice}
-                  onChange={event => this.setPriceRange(this.state.minRelativePrice, event.target.value)}
+                  defaultValue={formatPrice(this.state.maxRelativePrice)}
+                  onChange={event => this.setPriceRange(this.state.minRelativePrice, parseFloat(event.target.value))}
               />
             </div>
           </div>
