@@ -8,6 +8,7 @@ import Catalog from 'Catalog/Catalog';
 import DistilleryMap from 'DistilleryMap/DistilleryMap';
 
 export default function App() {
+  const homeUrl = `${process.env.PUBLIC_URL}/`;
   const catalogUrl = `${process.env.PUBLIC_URL}/catalog`;
   return (
     <Router>
@@ -15,7 +16,7 @@ export default function App() {
         <Route path={catalogUrl}>
           <Catalog />
         </Route>
-        <Route path="/">
+        <Route path={homeUrl}>
           <DistilleryMap />
         </Route>
       </Switch>
