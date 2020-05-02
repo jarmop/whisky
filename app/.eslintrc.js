@@ -44,6 +44,7 @@ module.exports = {
         'react/state-in-constructor': 0,
         'consistent-return': 0,
         'jsx-a11y/label-has-associated-control': 0,
+        'no-prototype-builtins': 0,
     },
     settings: {
         react: {
