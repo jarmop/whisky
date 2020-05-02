@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5658a5ae231199dd5b5a8127ef36e83e",
+    "revision": "a720554902c77df4bfd3c0583566c949",
     "url": "/whisky/index.html"
   },
   {
-    "revision": "365d73f069b753341bd2",
+    "revision": "15dfc071f6d0d1964a29",
     "url": "/whisky/static/css/2.75edc52f.chunk.css"
   },
   {
-    "revision": "dba34c9c3aa24593d66f",
+    "revision": "c5fbc59883c8e61ec914",
     "url": "/whisky/static/css/main.41bd47db.chunk.css"
   },
   {
-    "revision": "365d73f069b753341bd2",
-    "url": "/whisky/static/js/2.d61439d2.chunk.js"
+    "revision": "15dfc071f6d0d1964a29",
+    "url": "/whisky/static/js/2.6ec0f7ef.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/whisky/static/js/2.d61439d2.chunk.js.LICENSE.txt"
+    "url": "/whisky/static/js/2.6ec0f7ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dba34c9c3aa24593d66f",
-    "url": "/whisky/static/js/main.60ed69d9.chunk.js"
+    "revision": "c5fbc59883c8e61ec914",
+    "url": "/whisky/static/js/main.81b5518b.chunk.js"
   },
   {
     "revision": "706cc285ed535ff9759c",
