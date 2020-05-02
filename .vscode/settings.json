@@ -3,5 +3,8 @@
     "eslint.packageManager": "yarn",
     "eslint.workingDirectories": [
         "./app"
-    ]
+    ],
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
 }

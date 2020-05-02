@@ -3,5 +3,5 @@ export function formatPrice(price: number) {
 }
 
 const date = new Date();
-date.setUTCHours(0,0,0,0);
+date.setUTCHours(0, 0, 0, 0);
 export const TODAY = JSON.parse(JSON.stringify(date));
