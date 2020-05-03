@@ -61,7 +61,7 @@ class Catalog extends React.Component {
       && product.relativePrice < maxRelativePrice);
 
     products.sort((a: Product, b: Product) => {
-      const sortOrder: {[key: string]: string} = {
+      const sortOrder: { [key: string]: string } = {
         country: 'asc',
         relativePrice: 'asc',
       };
@@ -74,7 +74,7 @@ class Catalog extends React.Component {
         }
       }
 
-      Object.keys(sortOrder).forEach((orderKey) => {
+      for (const orderKey of Object.keys(sortOrder)) {
         const valA = a[orderKey];
         const valB = b[orderKey];
         if (valA < valB) {
@@ -82,7 +82,7 @@ class Catalog extends React.Component {
         } if (valA > valB) {
           return sortOrder[orderKey] === 'asc' ? 1 : -1;
         }
-      });
+      }
       return 0;
     });
 

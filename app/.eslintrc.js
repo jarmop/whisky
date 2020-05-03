@@ -45,6 +45,7 @@ module.exports = {
         'consistent-return': 0,
         'jsx-a11y/label-has-associated-control': 0,
         'no-prototype-builtins': 0,
+        'no-restricted-syntax': 0,
     },
     settings: {
         react: {
