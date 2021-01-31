@@ -49,7 +49,7 @@ const getWhiskyRowNumbers = (sheet) =>
     .filter((key) => sheet[key].v === "viskit")
     .map((key) => key.replace(columns.type, ""));
 
-const getRawValue = (cell) => cell.v;
+const getRawValue = (cell) => (cell ? cell.v : "");
 
 function parseXlsx() {
   const sheet = getSheet();
