@@ -1,6 +1,9 @@
-import mapboxgl, { LngLatLike } from 'mapbox-gl';
+import mapboxgl, { LngLatLike } from 'mapbox-gl'
 
-export default function addComplexPopup(map: mapboxgl.Map, popupCoordinates: number[]) {
+export default function addComplexPopup(
+  map: mapboxgl.Map,
+  popupCoordinates: number[]
+) {
   map.on('load', () => {
     map.addSource('places', {
       type: 'geojson',
@@ -21,7 +24,7 @@ export default function addComplexPopup(map: mapboxgl.Map, popupCoordinates: num
           },
         ],
       },
-    });
+    })
 
     map.addLayer({
       id: 'places',
@@ -31,48 +34,45 @@ export default function addComplexPopup(map: mapboxgl.Map, popupCoordinates: num
         'icon-image': '{icon}-15',
         'icon-allow-overlap': true,
       },
-    });
+    })
 
     const popup = new mapboxgl.Popup({
       closeButton: false,
       closeOnClick: false,
-    });
+    })
 
     map.on('mouseenter', 'places', (e) => {
       if (
-        e.features === undefined
-        || e.features[0].geometry.type !== 'Point'
-        || !(e.features[0].properties && e.features[0].properties.hasOwnProperty('description'))
+        e.features === undefined ||
+        e.features[0].geometry.type !== 'Point' ||
+        !(e.features[0].properties && e.features[0].properties.description)
       ) {
-        return;
+        return
       }
       // Change the cursor style as a UI indicator.
       //   map.getCanvas().style.cursor = 'pointer';
 
-      const coordinates = e.features[0].geometry.coordinates.slice();
+      const coordinates = e.features[0].geometry.coordinates.slice()
       // const coordinates = geometry.coordinates.slice();
-      const { description } = e.features[0].properties;
+      const { description } = e.features[0].properties
 
       // Ensure that if the map is zoomed out such that multiple
       // copies of the feature are visible, the popup appears
       // over the copy being pointed to.
       while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360
       }
 
-      const lngLat: LngLatLike = [coordinates[0], coordinates[1]];
+      const lngLat: LngLatLike = [coordinates[0], coordinates[1]]
 
       // Populate the popup and set its coordinates
       // based on the feature found.
-      popup
-        .setLngLat(lngLat)
-        .setHTML(description)
-        .addTo(map);
+      popup.setLngLat(lngLat).setHTML(description).addTo(map)
 
       map.on('mouseleave', 'places', () => {
         // map.getCanvas().style.cursor = '';
-        popup.remove();
-      });
-    });
-  });
+        popup.remove()
+      })
+    })
+  })
 }

@@ -1,16 +1,11 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-} from 'react-router-dom';
-import Catalog from 'Catalog/Catalog';
-import DistilleryMap from 'DistilleryMap/DistilleryMap';
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Catalog from 'Catalog/Catalog'
+import DistilleryMap from 'DistilleryMap/DistilleryMap'
 
 export default function App() {
-  const homeUrl = `${process.env.PUBLIC_URL}/`;
-  const catalogUrl = `${process.env.PUBLIC_URL}/catalog`;
+  const homeUrl = `${process.env.PUBLIC_URL}/`
+  const catalogUrl = `${process.env.PUBLIC_URL}/catalog`
   return (
     <Router>
       <Link to={homeUrl}>Home</Link>
@@ -25,5 +20,5 @@ export default function App() {
         </Route>
       </Switch>
     </Router>
-  );
+  )
 }

@@ -1,4 +1,4 @@
-import { Distillery, Regions } from 'types';
+import { Distillery, Regions } from 'types'
 
 const distilleries: Distillery[] = [
   {
@@ -21,7 +21,7 @@ const distilleries: Distillery[] = [
     name: 'Dalwhinnie',
     coordinates: {
       lon: -4.2391,
-      lat: 56.9400,
+      lat: 56.94,
     },
     region: Regions.Highlands,
   },
@@ -68,7 +68,7 @@ const distilleries: Distillery[] = [
   {
     name: 'Bowmore',
     coordinates: {
-      lon: -6.2900,
+      lon: -6.29,
       lat: 55.7569,
     },
     region: Regions.Islay,
@@ -85,7 +85,7 @@ const distilleries: Distillery[] = [
     name: 'Bunnahabhain',
     coordinates: {
       lon: -6.1257,
-      lat: 55.8830,
+      lat: 55.883,
     },
     region: Regions.Islay,
   },
@@ -108,7 +108,7 @@ const distilleries: Distillery[] = [
   {
     name: 'Laphroaig',
     coordinates: {
-      lon: -6.1430,
+      lon: -6.143,
       lat: 55.6258,
     },
     region: Regions.Islay,
@@ -125,7 +125,7 @@ const distilleries: Distillery[] = [
     name: 'Aberlour',
     coordinates: {
       lon: -3.2282,
-      lat: 57.4670,
+      lat: 57.467,
     },
     region: Regions.Speyside,
   },
@@ -161,6 +161,6 @@ const distilleries: Distillery[] = [
     },
     region: Regions.Speyside,
   },
-];
+]
 
-export default distilleries;
+export default distilleries

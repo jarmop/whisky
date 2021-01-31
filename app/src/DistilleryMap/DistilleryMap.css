@@ -1,24 +1,24 @@
-#mapid { 
-    width: 100%;
-    height: 100%;
-    position: fixed;
+#mapid {
+  width: 100%;
+  height: 100%;
+  position: fixed;
 }
 
 .marker {
-    display: block;
-    border: 1px solid black;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 0;
-    background-color: red;
-    width: 15px;
-    height: 15px;
+  display: block;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  background-color: red;
+  width: 15px;
+  height: 15px;
 }
 
 .popup .mapboxgl-popup-content {
-    padding: 8px;
+  padding: 8px;
 }
 .popup-title {
-    font-weight: bold;
-    font-size: 16px;
+  font-weight: bold;
+  font-size: 16px;
 }

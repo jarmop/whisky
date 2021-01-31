@@ -1,41 +1,42 @@
 table.table {
-    border-collapse: collapse;
-    font-size: 12px;
+  border-collapse: collapse;
+  font-size: 12px;
 }
 
-table.table th, table.table td {
-    padding: 4px;
+table.table th,
+table.table td {
+  padding: 4px;
 }
 
 table.table th {
-    text-align: left;
+  text-align: left;
 }
 
 table.table td {
-    border-bottom: 1px solid;
-    white-space: nowrap;
+  border-bottom: 1px solid;
+  white-space: nowrap;
 }
 
 .filter-container {
-    display: grid;
-    grid-template-columns: repeat(3, min-content);
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-gap: 10px;
 }
 
 .filter {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .priceRangeInput {
-    width: 60px;
+  width: 60px;
 }
 
 .added-today {
-    background-color: palegreen;
+  background-color: palegreen;
 }
 
 .sorting {
-    display: flex;
-    align-items: center;
-    background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
 }

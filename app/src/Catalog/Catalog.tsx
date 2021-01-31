@@ -1,103 +1,105 @@
-import React from 'react';
-import './Catalog.css';
-import allProductsJSON from 'data/alko.json';
-import List from './List';
-import { formatPrice, TODAY } from './library';
-import { Product } from './types';
+import React from 'react'
+import './Catalog.css'
+import allProductsJSON from 'data/alko.json'
+import List from './List'
+import { formatPrice, TODAY } from './library'
+import { Product } from './types'
 
-const allProducts: Product[] = allProductsJSON;
+const allProducts: Product[] = allProductsJSON
 
-const defaultMinRelativePrice = 40;
-let highestRelativePrice = 0;
-const countryOptions = allProducts.reduce(
-  (accumulator: string[], product) => {
-    if (product.relativePrice > highestRelativePrice) {
-      highestRelativePrice = product.relativePrice;
-    }
-    if (!accumulator.includes(product.country)) {
-      accumulator.push(product.country);
-    }
-    return accumulator;
-  },
-  [],
-);
+const defaultMinRelativePrice = 40
+let highestRelativePrice = 0
+const countryOptions = allProducts.reduce((accumulator: string[], product) => {
+  if (product.relativePrice > highestRelativePrice) {
+    highestRelativePrice = product.relativePrice
+  }
+  if (!accumulator.includes(product.country)) {
+    accumulator.push(product.country)
+  }
+  return accumulator
+}, [])
 
 type State = {
-  selectedCountry: string,
-  minRelativePrice: number,
-  maxRelativePrice: number,
+  selectedCountry: string
+  minRelativePrice: number
+  maxRelativePrice: number
 }
 
 class Catalog extends React.Component {
-  readonly state: State;
+  readonly state: State
 
   constructor(props: any) {
-    super(props);
+    super(props)
 
     this.state = {
       selectedCountry: 'Skotlanti',
       minRelativePrice: defaultMinRelativePrice,
       maxRelativePrice: highestRelativePrice,
-    };
+    }
   }
 
   setSelectedCountry(country: string) {
     this.setState({
       selectedCountry: country,
-    });
+    })
   }
 
   setPriceRange(min: number, max: number) {
     this.setState({
       minRelativePrice: min,
       maxRelativePrice: max,
-    });
+    })
   }
 
   render() {
-    const { selectedCountry, minRelativePrice, maxRelativePrice } = this.state;
-    const products = allProducts.filter((product) => product.country === selectedCountry
-      && product.relativePrice > minRelativePrice
-      && product.relativePrice < maxRelativePrice);
+    const { selectedCountry, minRelativePrice, maxRelativePrice } = this.state
+    const products = allProducts.filter(
+      (product) =>
+        product.country === selectedCountry &&
+        product.relativePrice > minRelativePrice &&
+        product.relativePrice < maxRelativePrice
+    )
 
     products.sort((a: Product, b: Product) => {
       const sortOrder: { [key: string]: string } = {
         country: 'asc',
         relativePrice: 'asc',
-      };
+      }
 
       // Sort new whiskies first
       if (a.timeAdded === TODAY || b.timeAdded === TODAY) {
-        const value = (new Date(b.timeAdded)).getTime() - (new Date(a.timeAdded)).getTime();
+        const value =
+          new Date(b.timeAdded).getTime() - new Date(a.timeAdded).getTime()
         if (value !== 0) {
-          return value;
+          return value
         }
       }
 
       for (const orderKey of Object.keys(sortOrder)) {
-        const valA = a[orderKey];
-        const valB = b[orderKey];
+        const valA = a[orderKey]
+        const valB = b[orderKey]
         if (valA < valB) {
-          return sortOrder[orderKey] === 'asc' ? -1 : 1;
-        } if (valA > valB) {
-          return sortOrder[orderKey] === 'asc' ? 1 : -1;
+          return sortOrder[orderKey] === 'asc' ? -1 : 1
+        }
+        if (valA > valB) {
+          return sortOrder[orderKey] === 'asc' ? 1 : -1
         }
       }
-      return 0;
-    });
+      return 0
+    })
 
     return (
       <div>
         <div className="filter-container">
           <select
-            onChange={(event) => this.setSelectedCountry(
-              event.target.value,
-            )}
+            onChange={(event) => this.setSelectedCountry(event.target.value)}
             value={selectedCountry}
           >
-            {countryOptions.map(
-              (country) => <option key={country} value={country}>{country}</option>,
-            )}
+            {countryOptions.map((country) => (
+              <option key={country} value={country}>
+                {country}
+              </option>
+            ))}
           </select>
           <div className="filter">
             <label>Price range: </label>
@@ -106,8 +108,11 @@ class Catalog extends React.Component {
               name="minprice"
               type="number"
               defaultValue={formatPrice(minRelativePrice)}
-              onChange={
-                (event) => this.setPriceRange(parseFloat(event.target.value), maxRelativePrice)
+              onChange={(event) =>
+                this.setPriceRange(
+                  parseFloat(event.target.value),
+                  maxRelativePrice
+                )
               }
             />
             {' - '}
@@ -116,8 +121,11 @@ class Catalog extends React.Component {
               name="maxprice"
               type="number"
               defaultValue={formatPrice(maxRelativePrice)}
-              onChange={
-                (event) => this.setPriceRange(minRelativePrice, parseFloat(event.target.value))
+              onChange={(event) =>
+                this.setPriceRange(
+                  minRelativePrice,
+                  parseFloat(event.target.value)
+                )
               }
             />
           </div>
@@ -127,8 +135,8 @@ class Catalog extends React.Component {
 
         <List products={products} />
       </div>
-    );
+    )
   }
 }
 
-export default Catalog;
+export default Catalog
