@@ -27,29 +27,38 @@ function getRelativePrice(product) {
   return (40 / product.abv) * product.price * (0.7 / product.size);
 }
 
-function parseXlsx() {
+const getSheet = () => {
   const workbook = XLSX.readFile(xlsxTempFilePath);
-  const sheetName = workbook.SheetNames[0];
-  const sheet = workbook.Sheets[sheetName];
+  return workbook.Sheets[workbook.SheetNames[0]];
+};
 
-  const columns = {
-    id: "A",
-    name: "B",
-    producer: "C",
-    size: "D",
-    price: "E",
-    type: "I",
-    country: "M",
-    notes: "S",
-    abv: "V",
-  };
+const columns = {
+  id: "A",
+  name: "B",
+  producer: "C",
+  size: "D",
+  price: "E",
+  type: "I",
+  country: "M",
+  notes: "S",
+  abv: "V",
+};
 
-  const whiskyRowNumbers = Object.keys(sheet)
+const getWhiskyRowNumbers = (sheet) =>
+  Object.keys(sheet)
     .filter((key) => sheet[key].v === "viskit")
     .map((key) => key.replace(columns.type, ""));
+
+const getRawValue = (cell) => cell.v;
+
+function parseXlsx() {
+  const sheet = getSheet();
+
+  const whiskyRowNumbers = getWhiskyRowNumbers(sheet);
+
   const timeAdded = new Date();
   timeAdded.setUTCHours(0, 0, 0, 0);
-  const getRawValue = (cell) => cell.v;
+
   const products = whiskyRowNumbers.map((row) => {
     let product = {
       id: getRawValue(sheet[columns.id + row]),
